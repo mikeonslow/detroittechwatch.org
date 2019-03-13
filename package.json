@@ -1,0 +1,20 @@
+{
+  "name": "detroittechwatch.org",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeonslow/detroittechwatch.org.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikeonslow/detroittechwatch.org/issues"
+  },
+  "homepage": "https://github.com/mikeonslow/detroittechwatch.org#readme"
+}
