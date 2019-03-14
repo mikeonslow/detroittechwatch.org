@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol} from "mdbreact";
+import {MDBContainer, MDBRow, MDBCol} from "mdbreact";
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import DTWFixedNavbar from './DTWFixedNavbar'
 import DTWJumbotron from './DTWJumbotron'

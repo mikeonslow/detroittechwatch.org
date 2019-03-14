@@ -1,16 +1,12 @@
 import React from 'react';
 import {
-    MDBContainer,
     MDBNavbar,
     MDBNavbarBrand,
     MDBNavbarNav,
     MDBNavbarToggler,
     MDBCollapse,
     MDBNavItem,
-    MDBNavLink,
-    NavLink,
     MDBIcon,
-    MDBBtn
 } from 'mdbreact';
 
 import {HashLink as Link} from 'react-router-hash-link';
@@ -32,13 +28,11 @@ class DTWFixedNavbar extends React.Component {
     }
 
     render() {
-
-        console.log('navbar render');
-        const bgPink = {backgroundColor: '#3B64AF'}
-        const container = {height: 1300}
+        const bgMonoDark = {backgroundColor: '#3B64AF'};
+        // const container = {height: 1300};
         return (
             <header>
-                <MDBNavbar style={bgPink} dark expand="md" scrolling fixed="top">
+                <MDBNavbar style={bgMonoDark} dark expand="md" scrolling fixed="top">
                     <MDBNavbarBrand href="/">
                         <img src="http://i64.tinypic.com/2e3zgd2.png" className="dtw-logo-white"
                              alt="Detroit Tech Watch Logo"/>
@@ -74,13 +68,13 @@ class DTWFixedNavbar extends React.Component {
                         </MDBNavbarNav>
                         <MDBNavbarNav right>
                             <MDBNavItem>
-                                <a href="https://www.facebook.com/DetroitTechWatch/" className="nav-link" target="_blank"><MDBIcon fab icon="facebook-f"/></a>
+                                <a href="https://www.facebook.com/DetroitTechWatch/" className="nav-link" target="_blank" rel="noopener noreferrer"><MDBIcon fab icon="facebook-f"/></a>
                             </MDBNavItem>
                             <MDBNavItem>
-                                <a href="https://twitter.com/dettechwatch" className="nav-link" target="_blank"><MDBIcon fab icon="twitter"/></a>
+                                <a href="https://twitter.com/dettechwatch" className="nav-link" target="_blank" rel="noopener noreferrer"><MDBIcon fab icon="twitter"/></a>
                             </MDBNavItem>
                             <MDBNavItem>
-                                <a href="https://www.instagram.com/detroittechwatch" className="nav-link" target="_blank"><MDBIcon fab icon="instagram"/></a>
+                                <a href="https://www.instagram.com/detroittechwatch" className="nav-link" target="_blank" rel="noopener noreferrer"><MDBIcon fab icon="instagram"/></a>
                             </MDBNavItem>
                         </MDBNavbarNav>
                     </MDBCollapse>

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol, MDBIcon} from "mdbreact";
+import { MDBBtn, MDBContainer, MDBRow, MDBCol, MDBIcon} from "mdbreact";
 
 class DTWJumbotron extends Component {
     render() {
@@ -17,7 +17,7 @@ class DTWJumbotron extends Component {
                     <MDBCol className="col-12 col-lg-4 text-center text-lg-right">
                         <h1 className="h1 brand-light">June 29th, 2019</h1>
                         <h6 className="h6 brand-light">TechTown Detroit, 440 Burroughs Street, Detroit, MI 48202 <a
-                            href="https://goo.gl/maps/itPsnYY7zBG2" target="_blank" className="text-info"><MDBIcon icon="map-marked" /></a></h6>
+                            href="https://goo.gl/maps/itPsnYY7zBG2" target="_blank" rel="noopener noreferrer" className="text-info"><MDBIcon icon="map-marked" /></a></h6>
                     </MDBCol>
                 </MDBRow>
                 <MDBRow>

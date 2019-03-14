@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol} from "mdbreact";
+import {MDBContainer, MDBRow, MDBCol} from "mdbreact";
 
 class DTWCodeOfConduct extends Component {
     render() {

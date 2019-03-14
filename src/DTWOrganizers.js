@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {MDBBtn, MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon} from "mdbreact";
+import {MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon} from "mdbreact";
 
 
 class DTWOrganizers extends Component {
@@ -24,7 +24,7 @@ class DTWOrganizers extends Component {
                                 <hr/>
                                 <p className="dark-grey-text mt-4">
                                     <MDBIcon fab icon="github" className="text-black mr-1"/>
-                                    <a href="https://github.com/OnorioCatenacci" target="_blank">@OnorioCatenacci</a>
+                                    <a href="https://github.com/OnorioCatenacci" target="_blank" rel="noopener noreferrer">@OnorioCatenacci</a>
                                 </p>
                             </MDBCardBody>
                         </MDBCard>
@@ -41,7 +41,7 @@ class DTWOrganizers extends Component {
                                 <hr/>
                                 <p className="dark-grey-text mt-4">
                                     <MDBIcon fab icon="github" className="text-black mr-1"/>
-                                    <a href="https://github.com/mikeonslow" target="_blank">@mikeonslow</a>
+                                    <a href="https://github.com/mikeonslow" target="_blank" rel="noopener noreferrer">@mikeonslow</a>
                                 </p>
                             </MDBCardBody>
                         </MDBCard>

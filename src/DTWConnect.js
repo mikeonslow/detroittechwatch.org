@@ -16,15 +16,15 @@ class DTWConnect extends Component {
                             <MDBInput label="Email Address" hint="youremail@domain.com" type="email" size="lg"/>
                             <MDBBtn color="secondary" size="md">sign up <MDBIcon far icon="comments"/></MDBBtn>
                         </MDBFormInline>
-                        <a href="dtw_speakers" id="speakers"></a>
                     </MDBCol>
                     <MDBCol>
+                      <a href="dtw_speakers" id="speakers">
                         <p className="text-center">Or, follow us on
-                            <a href="https://twitter.com/dettechwatch" target="_blank">Twitter</a>, <a
-                                href="https://www.facebook.com/DetroitTechWatch/" target="_blank">Facebook</a> or <a
-                                href="https://www.instagram.com/detroittechwatch/" target="_blank">Instagram</a>
+                            <a href="https://twitter.com/dettechwatch" target="_blank" rel="noopener noreferrer">Twitter</a>, <a
+                                href="https://www.facebook.com/DetroitTechWatch/" target="_blank" rel="noopener noreferrer">Facebook</a> or <a
+                                href="https://www.instagram.com/detroittechwatch/" target="_blank" rel="noopener noreferrer">Instagram</a>
                         </p>
-
+                      </a>
                     </MDBCol>
                 </MDBRow>
                 <MDBRow>

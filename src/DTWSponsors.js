@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {MDBBtn, MDBContainer, MDBRow, MDBCol, MDBInput, MDBFormInline} from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
 class DTWSponsors extends Component {
     render() {
