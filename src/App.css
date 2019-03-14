@@ -1,5 +1,13 @@
 body {
   background: #2e363f;
+  /*background: url("/static/images/skyline.jpg") no-repeat center center fixed;*/
+  /*-webkit-background-size: cover;*/
+  /*-moz-background-size: cover;*/
+  /*-o-background-size: cover;*/
+  /*background-size: cover;*/
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Segoe UI Light", "Roboto", sans-serif;
 }
 .dtw-logo {
   max-height: 30vh;
@@ -8,8 +16,46 @@ body {
   max-height: 35px;
   margin-right: 15px;
 }
-.dtw-footer {
+.brand-mono {
+  color: #2e363f;
+}
+.brand-light {
+  color: #46C3EC;
+}
+.brand-dark {
+  color: rgb(59, 100, 175);
+}
+.jumbotron {
+  background-color: #fefefe;
+
+}
+.section {
+}
+.section.light {
+  background-color: #efefef;
+}
+.section.dark {
   background-color: #485058;
   color: white;
+}
+.section.lightest {
+  background-color: #fff;
+  color: #333;
+}
+.section.mono {
+  background-color: #2e363f;
+}
+.dtw-footer {
+  background-color: rgb(59, 100, 175);
+  color: white;
   padding: 12px;
+}
+.testimonial-card img {
+  height: 110px;
+}
+.text-black {
+  color: black;
+}
+.table-schedule th {
+  background-color: rgb(59, 100, 175);
 }

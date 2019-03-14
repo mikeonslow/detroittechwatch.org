@@ -1,17 +1,16 @@
 import React, {Component} from 'react';
-import {MDBContainerFluid, MDBRow, MDBCol} from "mdbreact";
+import {MDBContainer, MDBRow, MDBCol} from "mdbreact";
 
 class DTWFooter extends Component {
     render() {
         return (
-            <div className="dtw-footer text-center fixed-bottom">
+            <MDBContainer className="text-center text-light p-2">
                 <MDBRow>
                     <MDBCol>
                          <div>Copyright 2019 - Detroit Tech Watch</div>
                     </MDBCol>
                 </MDBRow>
-            </div>
-
+            </MDBContainer>
         );
     }
 }

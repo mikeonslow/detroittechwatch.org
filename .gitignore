@@ -19,6 +19,8 @@ node_modules/# See https://help.github.com/articles/ignoring-files/ for more abo
 .env.test.local
 .env.production.local
 
-npm-debug.log*
+npm-debug.log*s
 yarn-debug.log*
 yarn-error.log*
+
+.netlify
