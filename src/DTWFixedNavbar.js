@@ -50,12 +50,6 @@ class DTWFixedNavbar extends React.Component {
                             <MDBNavItem>
                                 <Link to="#schedule" className="nav-link">Schedule</Link>
                             </MDBNavItem>
-                            {/*<MDBNavItem>*/}
-                                {/*<Link to="#tickets" className="nav-link">Tickets</Link>*/}
-                            {/*</MDBNavItem>*/}
-                            {/*<MDBNavItem>*/}
-                                {/*<Link to="#location" className="nav-link">Location</Link>*/}
-                            {/*</MDBNavItem>*/}
                             <MDBNavItem>
                                 <Link to="#" id="eventbrite-widget-modal-trigger-58444259353" className="nav-link">Purchase Tickets</Link>
                             </MDBNavItem>
