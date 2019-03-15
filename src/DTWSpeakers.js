@@ -31,7 +31,7 @@ class DTWSpeakers extends Component {
               />
               <h4 className="font-weight-bold mb-4">You?</h4>
               <p className="dark-grey-text mt-4">
-                <a href="/#" target="_blank"><MDBBtn size="lg" color="info">Submit a
+                <a href="https://www.papercall.io/dtw" target="_blank" rel="noopener noreferrer"><MDBBtn size="lg" color="info">Submit a
                   Proposal <MDBIcon far icon="paper-plane"/></MDBBtn></a>
               </p>
             </MDBCol>
