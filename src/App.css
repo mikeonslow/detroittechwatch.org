@@ -56,6 +56,9 @@ h1, h2, h3, h4, h5, h6 {
 .text-black {
   color: black;
 }
-.table-schedule th {
-  background-color: rgb(59, 100, 175);
+td {
+  background-color: rgb(255, 255, 255);
+}
+.signup {
+  width: 300px !important;
 }

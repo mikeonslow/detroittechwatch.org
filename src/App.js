@@ -12,6 +12,7 @@ import DTWSponsors from "./DTWSponsors";
 import DTWSchedule from "./DTWSchedule";
 
 import './App.css';
+import DTWGettingThere from "./DTWGettingThere";
 
 class App extends Component {
   render() {
@@ -59,7 +60,12 @@ class App extends Component {
                 <DTWSponsors/>
               </MDBCol>
             </MDBRow>
-            <MDBRow className="section lightest">
+            <MDBRow className="section dark">
+              <MDBCol>
+                <DTWGettingThere/>
+              </MDBCol>
+            </MDBRow>
+            <MDBRow className="section light">
               <MDBCol>
                 &nbsp;
               </MDBCol>

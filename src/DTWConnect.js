@@ -13,20 +13,19 @@ class DTWConnect extends Component {
             </MDBCol>
             <MDBCol size="12" className="text-center">
               <MDBFormInline className="md-form mr-auto mb-4 justify-content-center">
-                <MDBInput label="Email Address" hint="youremail@domain.com" type="email" size="lg"/>
+                <MDBInput label="Email Address" hint="youremail@domain.com" type="email" size="lg" className="signup"/>
                 <MDBBtn color="secondary" size="md">sign up <MDBIcon far icon="comments"/></MDBBtn>
               </MDBFormInline>
             </MDBCol>
             <MDBCol>
-              <a href="dtw_speakers" id="speakers">
-                <p className="text-center">Or, follow us on
-                  <a href="https://twitter.com/dettechwatch" target="_blank" rel="noopener noreferrer">Twitter</a>, <a
-                      href="https://www.facebook.com/DetroitTechWatch/" target="_blank"
-                      rel="noopener noreferrer">Facebook</a> or <a
-                      href="https://www.instagram.com/detroittechwatch/" target="_blank"
-                      rel="noopener noreferrer">Instagram</a>
-                </p>
-              </a>
+              <p className="text-center">Or, follow us on
+                <a href="https://twitter.com/dettechwatch" target="_blank" rel="noopener noreferrer">Twitter</a>, <a
+                    href="https://www.facebook.com/DetroitTechWatch/" target="_blank"
+                    rel="noopener noreferrer">Facebook</a> or <a
+                    href="https://www.instagram.com/detroittechwatch/" target="_blank"
+                    rel="noopener noreferrer">Instagram</a>
+              </p>
+              <a href="dtw_speakers" id="speakers"> </a>
             </MDBCol>
           </MDBRow>
           <MDBRow>
