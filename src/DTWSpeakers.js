@@ -22,7 +22,7 @@ class DTWSpeakers extends Component {
             </MDBCol>
           </MDBRow>
           <MDBRow className={`grey lighten-4 text-black p-1`}>
-            <MDBCol size="4">
+            <MDBCol sm="12" md="4">
               <img
                   src="/static/images/speaker.jpg"
                   alt=""
@@ -35,7 +35,7 @@ class DTWSpeakers extends Component {
                   Proposal <MDBIcon far icon="paper-plane"/></MDBBtn></a>
               </p>
             </MDBCol>
-            <MDBCol size="8" className="text-left justify-content-center align-self-center">
+            <MDBCol  sm="12" md="8" className="text-left justify-content-center align-self-center">
               <p>In addition to the speakers we've lined up, we're actively looking for speakers for the
                 Detroit Tech
                 Watch for 2019.</p>

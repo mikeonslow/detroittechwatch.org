@@ -11,7 +11,7 @@ class DTWSponsorPanel extends Component {
     );
 
     return (
-        <MDBCard>
+        <MDBCard className={`w-100`}>
           <MDBCardHeader color={color}>{level} Sponsor</MDBCardHeader>
           <MDBCardBody>
             <MDBCardTitle>{cost}</MDBCardTitle>
