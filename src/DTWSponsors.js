@@ -8,7 +8,9 @@ const packages = [
     "level": "Lanyard",
     "cost": "Cost of lanyards & badges",
     "perks": [
-      "Your company's logo and name printed on each lanyard and badge"
+      "Your company's logo and name printed on each lanyard and badge",
+      "Mention on website",
+      "Mention on all e-mails sent from the conference"
     ]
   },
   {

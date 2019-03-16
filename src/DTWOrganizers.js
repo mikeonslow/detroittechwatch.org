@@ -15,7 +15,7 @@ class DTWOrganizers extends Component {
             <MDBCol>
               <MDBCard testimonial className="text-center">
                 <img
-                    src="/static/images/onorio.jpeg"
+                    src="/static/images/onorio.jpg"
                     alt=""
                     className="rounded-circle img mx-auto mt-5"
                 />
