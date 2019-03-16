@@ -34,7 +34,7 @@ class DTWFixedNavbar extends React.Component {
         <header>
           <MDBNavbar style={bgMonoDark} dark expand="md" scrolling fixed="top">
             <MDBNavbarBrand href="/">
-              <img src="http://i64.tinypic.com/2e3zgd2.png" className="dtw-logo-white"
+              <img src="static/images/dtw_sm.png" className="dtw-logo-white"
                    alt="Detroit Tech Watch Logo"/>
               <strong>Detroit Tech Watch 2019</strong>
             </MDBNavbarBrand>

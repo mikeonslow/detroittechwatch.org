@@ -11,7 +11,7 @@ class DTWJumbotron extends Component {
               <h5 className="h5 brand-dark">Software Developer Conference</h5>
             </MDBCol>
             <MDBCol className="col-12 col-lg-4 text-center">
-              <img src="http://i65.tinypic.com/210gewy.png"
+              <img src="static/images/dtw.png"
                    className="img-fluid" alt="logo"/>
             </MDBCol>
             <MDBCol className="col-12 col-lg-4 text-center text-lg-right">
