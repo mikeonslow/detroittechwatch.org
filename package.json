@@ -5,7 +5,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "http-proxy-middleware": "^0.19.1",
     "mdbreact": "^4.11.0",
+    "netlify-lambda": "^1.4.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-router-hash-link": "^1.2.1",
@@ -15,7 +17,8 @@
     "start": "react-scripts start",
     "build": "npx react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lambda": "netlify-lamda serve ./src/lambda"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -25,8 +28,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "devDependencies": {
-    "prettier": "^1.16.4"
-  }
+  ]
 }

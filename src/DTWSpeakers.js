@@ -5,7 +5,7 @@ class DTWSpeakers extends Component {
   render() {
 
     const speakerImgStyle = {
-      '-webkit-filter': `grayscale(1)`,
+      WebkitFilter: `grayscale(1)`,
       filter: `grayscale(1)`
     };
     
