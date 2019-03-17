@@ -58,7 +58,7 @@ class DTWSchedule extends Component {
                   </tr>
                 </MDBTableBody>
               </MDBTable>
-              <a href="sponsors" id="sponsors">&nbsp;</a>
+              <a href="#sponsors" id="sponsors">&nbsp;</a>
             </MDBCol>
           </MDBRow>
         </MDBContainer>

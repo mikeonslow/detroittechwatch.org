@@ -56,7 +56,7 @@ class DTWSpeakers extends Component {
                 </ul>
             </MDBCol>
           </MDBRow>
-          <a href="schedule" id="schedule"> </a>
+          <a href="#schedule" id="schedule"> </a>
         </MDBContainer>
 
     );

@@ -58,7 +58,7 @@ class DTWSponsors extends Component {
           <MDBRow>
             {listItems}
           </MDBRow>
-          <a href="location" id="location">&nbsp;</a>
+          <a href="#location" id="location">&nbsp;</a>
         </MDBContainer>
     );
   }

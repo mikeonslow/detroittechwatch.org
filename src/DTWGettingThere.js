@@ -19,7 +19,7 @@ class DTWGettingThere extends Component {
               </div>
             </MDBCol>
           </MDBRow>
-          <a href="dtw_code_of_conduct" id="code_of_conduct">&nbsp;</a>
+          <a href="#dtw_code_of_conduct" id="code_of_conduct">&nbsp;</a>
         </MDBContainer>
 
     );
