@@ -8,23 +8,33 @@ exports.handler = async (event, context) => {
   const apiKey = process.env.MAILCHIMP_API_KEY;
   const listId = process.env.MAILCHIMP_LIST_ID;
 
-  if(!event.queryStringParameters.email) {
+  const {body} = event;
+
+  if (typeof body != 'string' || !body.match(/{"subscriber"./g) || !JSON.parse(event.body)) {
     return {
-      "statusCode": 422,
-      "body": responseMessage('Missing query string parameter "email"')
+      "statusCode": 400,
+      "body": responseMessage('Bad request body')
     }
   }
 
-  const { email } = event.queryStringParameters;
+  const requestBody = JSON.parse(body);
 
-  if(!validator.validate(email)) {
+  if (!requestBody.subscriber) {
     return {
-      "statusCode": 422,
-      "body": responseMessage(`Email address ${email} is invalid`)
+      "statusCode": 400,
+      "body": responseMessage('Subscriber is invalid')
     }
   }
 
-  // Only allow POST
+  const {subscriber} = requestBody;
+
+  if (!validator.validate(subscriber)) {
+    return {
+      "statusCode": 422,
+      "body": responseMessage(`Email address ${subscriber} is invalid`)
+    }
+  }
+
   if (event.httpMethod !== "POST") {
     return {statusCode: 405, body: "Method Not Allowed"};
   }
@@ -32,26 +42,23 @@ exports.handler = async (event, context) => {
   var mailchimp = new Mailchimp(apiKey);
 
   let result = await mailchimp.post(`/lists/${listId}/members`, {
-    "email_address": email,
+    "email_address": subscriber,
     "status": "subscribed"
   })
       .then(function (result) {
-        return {
-          "statusCode": 200,
-          "body": responseMessage('Your email address was added to our list, thanks for subscribing!')
-        };
+        return handleSuccess(result, subscriber);
       })
       .catch(function (err) {
-        const genericMessage = 'Your email address could not be added, please try again later';
-        if(err.statusCode == 400 && err.title == 'Member Exists') {
-          alreadySubscribedMessage = "You've already subscribed to our list, you cannot subscribe multiple times!";
+        var message = 'Your email address could not be added, please try again later';
+
+        if (err.status === 400 && err.title === 'Member Exists') {
+          message = "You've already subscribed to our list, you cannot subscribe multiple times!";
         }
         return {
           "statusCode": 500,
-          "body": responseMessage(alreadySubscribedMessage || genericMessage)
+          "body": responseMessage(message)
         };
       });
-
 
   return result;
 
@@ -63,4 +70,17 @@ function responseBody(data) {
 
 function responseMessage(s) {
   return responseBody({'message': s});
+}
+
+function handleSuccess(result, originalEmail) {
+  const successMessage = 'Your email address was added to our list, thanks for subscribing!';
+  const errorMessage = 'Your email address could not be added to our list, please try again later';
+
+  const subscribeSuccessful = result.email_address && result.status
+      && result.email_address === originalEmail && result.status === 'subscribed';
+
+  return {
+    "statusCode": subscribeSuccessful ? 200 : 500,
+    "body": responseMessage(subscribeSuccessful ? successMessage : errorMessage)
+  }
 }
