@@ -44,7 +44,12 @@ class DTWConnect extends Component {
             </MDBCol>
             <MDBCol size="12" className="text-center">
               <MDBFormInline className="md-form mr-auto mb-4 justify-content-center">
-                <MDBInput label="Email Address" hint="youremail@domain.com" type="email" size="lg" className="signup" onChange={this.handleChange} value={value}/>
+                <MDBInput label="Email Address" hint="youremail@domain.com" type="email" size="lg" className="signup" onChange={this.handleChange} value={value}>
+                  <div className="invalid-feedback">
+                    You must agree before submitting.
+                  </div>
+                </MDBInput>
+
                 <MDBBtn color="secondary" size="md" onClick={this.handleSubmit}>sign up <MDBIcon far icon="comments"/></MDBBtn>
               </MDBFormInline>
             </MDBCol>
@@ -56,7 +61,7 @@ class DTWConnect extends Component {
                     href="https://www.instagram.com/detroittechwatch/" target="_blank"
                     rel="noopener noreferrer">Instagram</a> to stay up to date with event information
               </p>
-              <a href="dtw_speakers" id="speakers"> </a>
+              <a href="#dtw_speakers" id="speakers"> </a>
             </MDBCol>
           </MDBRow>
           <MDBRow>
