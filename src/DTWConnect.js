@@ -4,18 +4,22 @@ import {
   MDBBtn, MDBInput, MDBFormInline, MDBIcon
 } from "mdbreact";
 
+var validator = require("email-validator");
+
 class DTWConnect extends Component {
 
   constructor(props) {
     super(props);
-    this.state = {value: ''};
+    this.state = {value: 'mikeo@clarityvoice.com', isValid: true, subscribeMessage: ''};
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   handleChange(e) {
-    this.setState({value: e.target.value});
+    const subscriber = e.target.value;
+    const isValid = validator.validate(subscriber);
+    this.setState({value: e.target.value, isValid: isValid});
   }
 
   handleSubmit(e) {
@@ -23,16 +27,24 @@ class DTWConnect extends Component {
     fetch('/.netlify/functions/subscribe', {
       method: 'post',
       body: JSON.stringify({"subscriber": this.state.value})
-    }).then(function(response) {
+    }).then(function (response) {
       return response.json();
-    }).then(function(data) {
+    }).then(function (data) {
       console.log(data);
     });
   }
 
   render() {
 
-    const { value } = this.state;
+    const {value, isValid, subscribeMessage} = this.state;
+
+
+    const errorFeedback = isValid ? '' :
+        <div className="invalid-feedback"><MDBIcon icon="exclamation-circle"/> Must contain a valid email
+          address</div>
+
+
+    console.log(this.state);
 
     return (
         <MDBContainer className="p-5">
@@ -44,13 +56,12 @@ class DTWConnect extends Component {
             </MDBCol>
             <MDBCol size="12" className="text-center">
               <MDBFormInline className="md-form mr-auto mb-4 justify-content-center">
-                <MDBInput label="Email Address" hint="youremail@domain.com" type="email" size="lg" className="signup" onChange={this.handleChange} value={value}>
-                  <div className="invalid-feedback">
-                    You must agree before submitting.
-                  </div>
+                <MDBInput label="Email Address" hint="youremail@domain.com" type="email" size="lg" className="signup"
+                          onChange={this.handleChange} value={value}>
                 </MDBInput>
-
-                <MDBBtn color="secondary" size="md" onClick={this.handleSubmit}>sign up <MDBIcon far icon="comments"/></MDBBtn>
+                <MDBBtn color="secondary" size="md" disabled={!isValid} className="mt-0" onClick={this.handleSubmit}>sign
+                  up <MDBIcon far icon="comments"/></MDBBtn>
+                {errorFeedback}
               </MDBFormInline>
             </MDBCol>
             <MDBCol size="12">

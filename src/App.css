@@ -62,3 +62,7 @@ td {
 .signup {
   width: 300px !important;
 }
+.invalid-feedback {
+   color: red;
+   display: block;
+ }

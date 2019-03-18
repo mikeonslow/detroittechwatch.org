@@ -21,7 +21,8 @@
     "build": "npx react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lambda": "netlify-lambda serve ./src/lambda"
+    "lambda:serve": "netlify-lambda serve ./src/lambda",
+    "lambda:build": "netlify-lambda build ./src/lambda"
   },
   "eslintConfig": {
     "extends": "react-app"
