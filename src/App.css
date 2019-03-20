@@ -6,7 +6,7 @@ body {
   /*-o-background-size: cover;*/
   /*background-size: cover;*/
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Segoe UI Light", "Roboto-Light", "Roboto", sans-serif;
 }
 .dtw-logo {
@@ -66,3 +66,8 @@ td {
    color: red;
    display: block;
  }
+.perk-item {
+  border-top: 1px #aaa solid;
+  padding: 15px;
+  display: block;
+}

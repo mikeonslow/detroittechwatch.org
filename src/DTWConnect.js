@@ -10,7 +10,7 @@ class DTWConnect extends Component {
 
   constructor(props) {
     super(props);
-    this.state = {value: 'mikeo@clarityvoice.com', isValid: true, subscribeMessage: ''};
+    this.state = {value: '', isValid: false, subscribeMessage: ''};
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);

@@ -1,22 +1,23 @@
 import React, {Component} from 'react';
-import {MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardHeader, MDBBtn} from "mdbreact";
+import {MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardHeader, MDBBtn, MDBIcon} from "mdbreact";
 
 class DTWSponsorPanel extends Component {
   render() {
     const {color, level, cost, perks} = this.props;
 
-    const listPerks = perks.map((perk) =>
-        <span><hr/>
-          {perk}</span>
+    const listPerks = perks.map((perk, i) =>
+        <span className="perk-item" key={i}>{perk}</span>
     );
 
     return (
         <MDBCard className={`w-100`}>
-          <MDBCardHeader color={color}>{level} Sponsor</MDBCardHeader>
+          <MDBCardHeader color={color}><MDBIcon icon="award" /> {level} Sponsor</MDBCardHeader>
           <MDBCardBody>
             <MDBCardTitle>{cost}</MDBCardTitle>
             <MDBCardText>
-              <h6>What you Get</h6>
+              <span className="h5">What you Get</span>
+              <br/>
+              <br/>
               {listPerks}
             </MDBCardText>
             <a href={`mailto:info@detroittechwatch.org?subject=${level} level sponsor request`}><MDBBtn>Become
