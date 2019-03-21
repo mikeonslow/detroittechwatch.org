@@ -40,12 +40,12 @@ class App extends Component {
                 &nbsp;
               </MDBCol>
             </MDBRow>
-            <MDBRow className="section dark">
+            <MDBRow className="section dark-blue">
               <MDBCol>
                 <DTWSpeakers/>
               </MDBCol>
             </MDBRow>
-            <MDBRow className="section dark">
+            <MDBRow className="section dark-blue">
               <MDBCol>
                 &nbsp;
               </MDBCol>

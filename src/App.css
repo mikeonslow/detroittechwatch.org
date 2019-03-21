@@ -27,15 +27,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .jumbotron {
   background-color: #fefefe;
-
-}
-.section {
 }
 .section.light {
   background-color: #efefef;
 }
 .section.dark {
   background-color: #485058;
+  color: white;
+}
+.section.dark-blue {
+  background-color: #121f48;
   color: white;
 }
 .section.lightest {
@@ -59,15 +60,35 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 td {
   background-color: rgb(255, 255, 255);
 }
-.signup {
-  width: 300px !important;
-}
 .invalid-feedback {
    color: red;
+   display: block;
+ }
+.valid-feedback {
+   color: green;
    display: block;
  }
 .perk-item {
   border-top: 1px #aaa solid;
   padding: 15px;
   display: block;
+}
+.progress, .progress-bar.progress-bar-striped.progress-bar-animated {
+    height: 8px;
+}
+.img.speaker, .img.organizer  {
+    width: 110px;
+}
+.signup {
+    min-width: 30vw !important;
+}
+@media (max-width: 576px) {
+    .signup {
+        min-width: 90vw !important;
+    }
+}
+@media (max-width: 768px) {
+    .signup {
+        min-width: 90vw !important;
+    }
 }

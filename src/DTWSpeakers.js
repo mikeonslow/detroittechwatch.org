@@ -5,27 +5,34 @@ import DTWSpeakerPanel from './DTWSpeakerPanel'
 
 const speakers = [
   {
-    "name": "Grant Maki",
-    'bio': 'Grant Maki is a software engineer at Ford Motor Company, where he has been working with Elm for just over a year. ' +
-    'He was a lawyer briefly, but not anymore. Nothing in this talk constitutes legal advice.',
-    'imageUrl': 'grant-maki.jpg',
-    "talk": {
-      'title': 'Facilitating Technology Change Through Cultural Change',
-      'description': 'When we discuss how to help teams adopt new technologies or paradigms like Elm of Functional Programming, we often focus on a technical glide path. Not enough attention is given to building a team culture that is open to experimenting with new technologies and adopting them if the experiments go well. This talk will explore strategies and tactics to build such a culture through the lens of my team\'s experiences at Ford Motor Company. Building such a culture has produced a number of pleasant side effects, including allowing our team to adopt Elm for all of our front-end development.'
-    }
-  },
-  {
     "name": "Don Ward",
-    'bio': 'Director of Engineering at Quicken Loans, Certified SAFe Professional, Local Software Community Leader in Detroit',
+    'bio':
+        <div>
+          <div>Don Ward currently helps lead the Detroit and Windsor Google Developers Groups. An avid technologist, he
+            enjoys hosting software developer events as well as networking within the local
+            software development community.</div>
+          <div>During the day, Don works at Quicken Loans in downtown Detroit.</div>
+        </div>,
     'imageUrl': 'don-ward.jpg',
     "talk": {
-      'title': 'Mobile Development with Flutter',
-      'description': <p>...</p>
+      'title': 'From the ground up - developing a mobile app using Flutter',
+      'description':
+          <div>
+            <div>Flutter is Google’s cross-platform mobile platform for crafting high-quality native interfaces on iOS and
+              Android in record time.
+              Flutter works with existing code, is used by developers and organizations around the world, and is free
+              and open source.</div>
+
+            <div>Together we will start with an empty Flutter project and build it up step by step into a usable app.
+              Along the way, you will pick up some of the fundamentals of Flutter development
+              as well as the fundamentals of the Dart language. This intro will equip you with enough of a base to start
+              building your own mobile apps in record time!</div></div>
     }
   },
   {
     "name": "Josh Horowitz",
-    'bio': 'Josh is a software engineer at Ambyint where he works on creating the self driving car of oil wells.\n With experience in industries ranging from farming to finance, Josh was drawn to the promises of Pony and the problems it solved.',
+    'bio': 'Josh is a software engineer at Ambyint creating web and cloud native applications focused on delivering industrial autonomy to its customers. ' +
+    'With experience in industries ranging from farming to finance, Josh was drawn to the promises of Pony and the problems that it solved.',
     'imageUrl': 'josh-horowitz.jpg',
     "talk": {
       'title': 'Time to Pony Up!: A Tour of Pony',
@@ -33,16 +40,32 @@ const speakers = [
     }
   },
   {
+    "name": "Grant Maki",
+    'bio': 'Grant Maki is a software engineer at Ford Motor Company, where he has been working with Elm for just over a year. ' +
+    'He was a lawyer briefly, but not anymore. Nothing in this talk constitutes legal advice.',
+    'imageUrl': 'grant-maki.jpg',
+    "talk": {
+      'title': 'Facilitating Technology Change Through Cultural Change',
+      'description':
+          <div>
+            <div>When we discuss how to help teams adopt new technologies or paradigms like Elm of Functional Programming,
+              we often focus on a technical glide path. Not enough attention is given to building a team culture that is
+              open to experimenting with new technologies and adopting them if the experiments go well.</div>
+            <div>This talk will explore strategies and tactics to build such a culture through the lens of my team\'s
+              experiences at Ford Motor Company. Building such a culture has produced a number of pleasant side effects,
+              including allowing our team to adopt Elm for all of our front-end development.</div>
+          </div>
+    }
+  },
+  {
     "name": "You?",
     'bio': 'In addition to the speakers we\'ve lined up, we\'re actively looking for speakers for the Detroit Tech Watch for 2019.',
     'imageUrl': 'speaker.jpg',
     "talk": {
-      'title': "...",
+      'title': <MDBIcon icon="ellipsis-h"/>,
       'description': <div>
-        <a href="https://www.papercall.io/dtw" target="_blank" rel="noopener noreferrer"><MDBBtn size="lg"
-                                                                                                 color="info">Submit
-          a
-          Proposal <MDBIcon far icon="paper-plane"/></MDBBtn></a>
+        <a href="https://www.papercall.io/dtw" target="_blank" rel="noopener noreferrer"><MDBBtn size="lg" color="info">Submit
+          a Proposal <MDBIcon far icon="paper-plane"/></MDBBtn></a>
       </div>
     }
   },
@@ -51,34 +74,29 @@ const speakers = [
 class DTWSpeakers extends Component {
   render() {
 
-    const speakerImgStyle = {
-      WebkitFilter: `grayscale(1)`,
-      filter: `grayscale(1)`
-    };
-
     const speakersList = speakers.map((speaker, i) =>
-      <MDBCol sm="12" md="6" key={i} className="mb-5 d-flex align-items-stretch">
-        <DTWSpeakerPanel speaker={speaker} key={i}/>
-      </MDBCol>
+        <MDBCol sm="12" md="6" key={i} className="mb-5 d-flex align-items-stretch">
+          <DTWSpeakerPanel speaker={speaker} key={i}/>
+        </MDBCol>
     );
 
     return (
-      <MDBContainer className="p-5 section dark">
-        <MDBRow>
-          <MDBCol>
-            <h1 className="">Speakers</h1>
-          </MDBCol>
-        </MDBRow>
-        <MDBRow>
-          <MDBCol>
-            <h1 className="">&nbsp;</h1>
-          </MDBCol>
-        </MDBRow>
-        <MDBRow>
-          {speakersList}
-        </MDBRow>
-        <a href="schedule" id="schedule"> </a>
-      </MDBContainer>
+        <MDBContainer className="p-5">
+          <MDBRow>
+            <MDBCol>
+              <h1 className="">Speakers</h1>
+            </MDBCol>
+          </MDBRow>
+          <MDBRow>
+            <MDBCol>
+              <h1 className="">&nbsp;</h1>
+            </MDBCol>
+          </MDBRow>
+          <MDBRow>
+            {speakersList}
+          </MDBRow>
+          <a href="schedule" id="schedule"> </a>
+        </MDBContainer>
 
     );
   }

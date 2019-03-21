@@ -55,7 +55,7 @@ exports.handler = async (event, context) => {
           message = "You've already subscribed to our list, you cannot subscribe multiple times!";
         }
         return {
-          "statusCode": 500,
+          "statusCode": err.status,
           "body": responseMessage(message)
         };
       });

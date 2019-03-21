@@ -4,12 +4,6 @@ import {
   MDBCardBody,
   MDBCardTitle,
   MDBCardText,
-  MDBCardHeader,
-  MDBCardImage,
-  MDBRow,
-  MDBCol,
-  MDBBtn,
-  MDBIcon
 } from "mdbreact";
 
 class DTWSpeakerPanel extends Component {
@@ -23,15 +17,15 @@ class DTWSpeakerPanel extends Component {
           <img
             src={imageSrc}
             alt=""
-            className="rounded-circle img mx-auto mt-5"
+            className="rounded-circle img mx-auto mt-5 speaker"
           />
           <MDBCardBody>
-            <MDBCardTitle className="deep-purple-text">{speaker.name}</MDBCardTitle>
+            <MDBCardTitle className="deep-purple-text"><b>{speaker.name}</b></MDBCardTitle>
             <MDBCardText>
-              <p className="h4">{speaker.talk.title}</p>
-              <p>{speaker.bio}</p>
+              <div className="h4">{speaker.talk.title}</div>
+              <div>{speaker.bio}</div>
               <hr/>
-              <p>{speaker.talk.description}</p>
+              <div>{speaker.talk.description}</div>
             </MDBCardText>
           </MDBCardBody>
         </MDBCard>
