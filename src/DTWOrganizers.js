@@ -17,7 +17,7 @@ class DTWOrganizers extends Component {
                 <img
                     src="/static/images/onorio.jpg"
                     alt=""
-                    className="rounded-circle img mx-auto mt-5"
+                    className="rounded-circle img mx-auto mt-5 organizer"
                 />
                 <MDBCardBody>
                   <h4 className="font-weight-bold mb-4 text-secondary">Onorio Catenacci</h4>
@@ -35,7 +35,7 @@ class DTWOrganizers extends Component {
                 <img
                     src="/static/images/mike.jpg"
                     alt=""
-                    className="rounded-circle img mx-auto mt-5"
+                    className="rounded-circle img mx-auto mt-5 organizer"
                 />
                 <MDBCardBody>
                   <h4 className="font-weight-bold mb-4 text-secondary">Mike Onslow</h4>

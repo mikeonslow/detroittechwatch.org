@@ -36,8 +36,8 @@ const packages = [
 
 class DTWSponsors extends Component {
   render() {
-    const listItems = packages.map((item) =>
-        <MDBCol className={`d-flex align-items-stretch`} sm="12" md="4">
+    const listItems = packages.map((item, i) =>
+        <MDBCol className={`d-flex align-items-stretch`} sm="12" md="4" key={i}>
           <DTWSponsorPanel color={item.color} level={item.level} cost={item.cost} perks={item.perks}/>
         </MDBCol>
     );
