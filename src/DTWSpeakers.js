@@ -30,31 +30,13 @@ const speakers = [
     }
   },
   {
-    "name": "Josh Horowitz",
+    "name": "Josh Horwitz",
     'bio': 'Josh is a software engineer at Ambyint creating web and cloud native applications focused on delivering industrial autonomy to its customers. ' +
     'With experience in industries ranging from farming to finance, Josh was drawn to the promises of Pony and the problems that it solved.',
     'imageUrl': 'josh-horowitz.jpg',
     "talk": {
       'title': 'Time to Pony Up!: A Tour of Pony',
       'description': 'Join Josh on a tour through Pony, which will allow you to write fast, safe, efficient and highly concurrent programs.'
-    }
-  },
-  {
-    "name": "Grant Maki",
-    'bio': 'Grant Maki is a software engineer at Ford Motor Company, where he has been working with Elm for just over a year. ' +
-    'He was a lawyer briefly, but not anymore. Nothing in this talk constitutes legal advice.',
-    'imageUrl': 'grant-maki.jpg',
-    "talk": {
-      'title': 'Facilitating Technology Change Through Cultural Change',
-      'description':
-          <div>
-            <div>When we discuss how to help teams adopt new technologies or paradigms like Elm of Functional Programming,
-              we often focus on a technical glide path. Not enough attention is given to building a team culture that is
-              open to experimenting with new technologies and adopting them if the experiments go well.</div>
-            <div>This talk will explore strategies and tactics to build such a culture through the lens of my team\'s
-              experiences at Ford Motor Company. Building such a culture has produced a number of pleasant side effects,
-              including allowing our team to adopt Elm for all of our front-end development.</div>
-          </div>
     }
   },
   {
