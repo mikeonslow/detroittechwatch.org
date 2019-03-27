@@ -29,7 +29,8 @@ const packages = [
     "perks": [
       "Booth at Event",
       "Mention on website",
-      "Mention on all e-mails sent from the conference"
+      "Mention on all e-mails sent from the conference",
+      "10 tickets for you to share with your employees or community"
     ]
   },
 ];
