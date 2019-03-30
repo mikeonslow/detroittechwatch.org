@@ -48,11 +48,17 @@ class DTWSponsors extends Component {
           <MDBRow>
             <MDBCol>
               <h1>Sponsors</h1>
+              <hr/>
             </MDBCol>
           </MDBRow>
-          <MDBRow>
+          <MDBRow className="mt-2">
             <MDBCol>
-              <h3>Support the community</h3>
+              <img src="static/images/sponsor/riis.jpg" title="Thanks to our platinum sponsor - riis" alt="Thanks to our platinum sponsor - riis"></img>
+            </MDBCol>
+          </MDBRow>
+          <MDBRow className="mt-5">
+            <MDBCol>
+              <h2>Support the community</h2>
               <p>You or your company can become a sponsor for Detroit Tech Watch 2019.</p>
             </MDBCol>
           </MDBRow>
