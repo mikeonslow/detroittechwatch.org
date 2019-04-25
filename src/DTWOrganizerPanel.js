@@ -5,7 +5,16 @@ class DTWOrganizerPanel extends Component {
   render() {
     const {name, imageUrl, twitterHandle, githubHandle} = this.props;
 
-    console.log(this.props);
+
+    var githubLink = "";
+
+    if(githubHandle.length) {
+      githubLink =
+      <span><br/>
+        <MDBIcon fab icon="github" className="black-text mr-1"/>
+          <a href={`https://github.com/${githubHandle}`} target="_blank" rel="noopener noreferrer">@{githubHandle}</a>
+      </span>
+    }
 
     return (
             <MDBCol>
@@ -21,9 +30,7 @@ class DTWOrganizerPanel extends Component {
                   <p className="dark-grey-text mt-4">
                     <MDBIcon fab icon="twitter" className="blue-text mr-1"/>
                     <a href={`https://twitter.com/${twitterHandle}`} target="_blank" rel="noopener noreferrer">@{twitterHandle}</a>
-                    <br/>
-                    <MDBIcon fab icon="github" className="black-text mr-1"/>
-                    <a href={`https://github.com/${githubHandle}`} target="_blank" rel="noopener noreferrer">@{githubHandle}</a>
+                    {githubLink}
                   </p>
                 </MDBCardBody>
               </MDBCard>

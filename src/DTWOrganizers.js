@@ -5,8 +5,10 @@ import DTWOrganizerPanel from "./DTWOrganizerPanel";
 
 const organizers =
   [
-      {"name": "Onorio Catenacci", "imageUrl": "onorio.jpg", "twitterHandle": "OldDutchCap", "githubHandle": "OnorioCatenacci"},
-      {"name": "Mike Onslow", "imageUrl": "mike.jpg", "twitterHandle": "mike_onslow", "githubHandle": "mikeonslow"}
+      {"name": "Onorio Catenacci", "imageUrl": "onorio.jpg", "twitterHandle": "OldDutchCap", "githubHandle": ""},
+      {"name": "Mike Onslow", "imageUrl": "mike.jpg", "twitterHandle": "mike_onslow", "githubHandle": ""},
+      {"name": "Rebecca Farr", "imageUrl": "rebecca.jpg", "twitterHandle": "BB8becca", "githubHandle": ""},
+      {"name": "Kristina Rudolph", "imageUrl": "kristi.jpg", "twitterHandle": "UXUIKris", "githubHandle": ""}
   ];
 
 
@@ -21,7 +23,6 @@ class DTWOrganizers extends Component {
             key={i}
         />
     );
-
 
     return (
         <MDBContainer className="p-5">
