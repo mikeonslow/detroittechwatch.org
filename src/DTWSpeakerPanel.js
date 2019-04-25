@@ -23,9 +23,9 @@ class DTWSpeakerPanel extends Component {
             <MDBCardTitle className="deep-purple-text"><b>{speaker.name}</b></MDBCardTitle>
             <MDBCardText>
               <div className="h4">{speaker.talk.title}</div>
-              <div>{speaker.bio}</div>
+              <div className="speaker description-container text-justify">{speaker.talk.description}</div>
               <hr/>
-              <div>{speaker.talk.description}</div>
+              <div className="speaker bio-container">{speaker.bio}</div>
             </MDBCardText>
           </MDBCardBody>
         </MDBCard>

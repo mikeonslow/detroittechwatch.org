@@ -76,11 +76,22 @@ td {
 .progress, .progress-bar.progress-bar-striped.progress-bar-animated {
     height: 8px;
 }
-.img.speaker, .img.organizer  {
+.img.speaker, .img.organizer {
     width: 110px;
+}
+.speaker.description-container {
+    font-weight: 400 !important;
+    color: #485058;
+    font-size: 1.2em
+}
+.speaker.bio-container {
+     font-style: italic !important;
 }
 .signup {
     min-width: 30vw !important;
+}
+.card ul {
+    text-align: left;
 }
 @media (max-width: 576px) {
     .signup {
