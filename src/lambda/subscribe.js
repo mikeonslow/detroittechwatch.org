@@ -59,9 +59,7 @@ exports.handler = async (event, context) => {
           "body": responseMessage(message)
         };
       });
-
   return result;
-
 };
 
 function responseBody(data) {
