@@ -174,22 +174,40 @@ const speakers = [
     "name": "Leo Dion",
     'bio':
     <div>
-      <p>Leo Dion runs BrightDigit, a company in Lansing, Michigan which specializes in software development in the Apple space: iOS, macOS, and watchOS as well as marketing integration. He has almost 10 years of experience developing in iOS and has been developing in and blogging about Swift since day 1. He lives in Lansing MI with his wife Betsy and 5 kids and currently run two podcasts: empowerapps.show on Apple stuff and businesses, and okproductive.com a productivity podcast for non-perfectionists.</p>
+      Leo Dion runs BrightDigit, a company in Lansing, Michigan which specializes in software development
+       in the Apple space: iOS, macOS, and watchOS as well as <a href="https://www.meetup.com/Lansing-Marketing-Hackers/" target="_blank" rel="noopener noreferrer">marketing integration</a>. 
+       He has almost 10 years of experience developing in iOS and has been blogging about Swift since day 1. He lives his wife Betsy and 5 kids and currently run two podcasts: 
+       <a href="https://www.empowerapps.show/subscribe" target="_blank" rel="noopener noreferrer">empowerapps.show on Apple and Business</a>,
+       and <a href="https://okproductive.com/subscribe" target="_blank" rel="noopener noreferrer">okproductive.com, a productivity podcast for non-perfectionists</a>.
     </div>,
     'imageUrl': 'leo.jpg',
     "talk": {
+      'type': 'workshop',
       'title': 'How to Get Started with Swift in 2019',
       'description':
       <div>
-        <p>Swift is now a half decade old since its introduction at WWDC 2014. With Swift 5 and ABI stability, Swift has matured into a language ready for new adopters. In this talk, Leo gives an introduction to Swift development as well as Swift’s journey from the iPhone to the Watch to servers. Leo also covers:</p>
-        <ul>
-        <li>How has Swift changed in those years?</li>
-        <li>Elements of Protocol-Oriented and Functional Programming</li>
-        <li>What is the future of Swift?</li>
-        <li>What does ABI stability mean for Swift?</li>
-        <li>Where is Swift headed?</li>
-        <li>Come to this talk to learn more about this language.</li>
-        </ul>
+        <p>With Swift 5 and ABI stability, Swift has matured into a language ready for new adopters. In this talk, Leo gives an introduction to Swift development as well as its journey.</p>
+        <p>This session will cover the basics of the syntax and how it is similar. This session will explain some differences such as Optionals, Enumerations, and Error Handling. We then build our first iOS Application with navigation, tabs, and a table view.</p>
+        <p>By building the application, we can get into some of the patterns and practices in iOS development including Delegation, Protocol-Oriented Programming, and Functional Programming. Lastly, we’ll get into the basics of Apple Watch development and how can carry our skills to the watch.</p>
+        <p>If you are interested in getting started with Swift and developing for the Apple Watch, you’ll want to check this workshop out.</p>
+      </div>
+    }
+  },
+  {
+    "name": "Mike Onslow",
+    'bio':
+    <div>
+      <p>Mike Onslow is a Principal Software Engineer at Clarity Voice. He has a passion for solving problems through the use of technology and sharing his knowledge with others. Over the past couple of years, Mike has found a technology stack that he truly loves in Elm and Elixir.</p>
+    </div>,
+    'imageUrl': 'mike.jpg',
+    "talk": {
+      'type': 'workshop',
+      'title': 'Building an interactive app from scratch in Elm',
+      'description':
+      <div>
+        <p>Elm is a functional programming language for front-end web development. Elm has been gaining popularity as it aims to solve many of the main pain points of the modern JavaScript developer.</p>
+        <p>In this workshop, participants will build a small Elm app from the ground up. We'll start with basic syntax, explain how "The Elm Architecture" guides us as we develop our app and walk through Data Modelling and working with JSON APIs</p>          
+        <p>We assume prior knowledge only of JavaScript or another imperative or object-oriented language.</p>
       </div>
     }
   },
