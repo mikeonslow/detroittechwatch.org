@@ -56,11 +56,9 @@ const speakers = [
   {
     "name": "Serdar (Sedo) Dogruyol",
     'bio': <div>
-      <p>I’m Serdar Dogruyol a.k.a Sedo. A Senior Software Engineer working remotely for RainforestQA. I’m also a core member of the Crystal programming language team and the creator of the Kemal web framework.</p>
-
-      <p>My current main interests are Crystal (programming language), Self Development and Keynesian economics.</p>
-
-      <p>I’m Open Source by default and you can check my Github for more.</p>
+      <p>Serdar Dogruyol a.k.a Sedo is a core member of Crystal programming language team and the creator of <a href="http://kemalcr.com/" target="_blank" rel="noopener noreferrer">Kemal Web Framework</a>. Hailing from the beautiful city of Istanbul, he works remotely for RainforestQA.</p>
+      <p>Sedo is a long-time OSS advocate and has contributed to many OSS projects. His main interests are Crystal (programming language), Self Development and Keynesian Economics.</p>
+      <p>In his free time, Sedo reads books, practices Japanese and travels around the world to share knowledge.</p>
     </div>,
     'imageUrl': 'serdar.jpg',
     "talk": {
