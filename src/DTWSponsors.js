@@ -18,7 +18,9 @@ const packages = [
     "level": "Gold",
     "cost": "$1,000",
     "perks": [
+      "Banner in the main room of the event",
       "Mention on website",
+      "Mention on social media, frequent call outs and thank you",
       "Mention on all e-mails sent from the conference"
     ]
   },
@@ -28,7 +30,9 @@ const packages = [
     "cost": "$2,000",
     "perks": [
       "Booth at Event",
+      "Banner in the main room of the event",
       "Mention on website",
+      "Mention on social media, frequent call outs and thank you",
       "Mention on all e-mails sent from the conference",
       "10 tickets for you to share with your employees or community"
     ]
