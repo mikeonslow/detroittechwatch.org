@@ -189,7 +189,8 @@ const speakers = [
         <p>By building the application, we can get into some of the patterns and practices in iOS development including Delegation, Protocol-Oriented Programming, and Functional Programming. Lastly, we’ll get into the basics of Apple Watch development and how can carry our skills to the watch.</p>
         <p>If you are interested in getting started with Swift and developing for the Apple Watch, you’ll want to check this workshop out.</p>
       </div>
-    }
+    },
+    "signupUrl": "https://forms.gle/7RRrrpEoMf61tMpF9"
   },
   {
     "name": "Mike Onslow",
@@ -207,7 +208,8 @@ const speakers = [
         <p>In this workshop, participants will build a small Elm app from the ground up. We'll start with basic syntax, explain how "The Elm Architecture" guides us as we develop our app and walk through Data Modelling and working with JSON APIs</p>          
         <p>We assume prior knowledge only of JavaScript or another imperative or object-oriented language.</p>
       </div>
-    }
+    },
+    "signupUrl": "https://forms.gle/GpNtp6wzVrzdTznt9"
   },
 ];
 
