@@ -55,9 +55,12 @@ class DTWSponsors extends Component {
               <hr/>
             </MDBCol>
           </MDBRow>
-          <MDBRow className="mt-2">
-            <MDBCol>
-              <img src="static/images/sponsor/riis.jpg" title="Thanks to our platinum sponsor - riis" alt="Thanks to our platinum sponsor - riis"></img>
+          <MDBRow className="mt-2 text-center">
+            <MDBCol size="12" className="mb-4">
+              <img src="static/images/sponsor/riis.jpg" height="30" title="Thanks to our platinum sponsor - riis" alt="Thanks to our platinum sponsor - riis"></img>
+            </MDBCol>
+            <MDBCol size="12">
+              <img src="static/images/sponsor/rv.png" height="30"  title="Thanks to our lanyard sponsor - Red Ventures" alt="Thanks to our lanyard sponsor - Red Ventures"></img>
             </MDBCol>
           </MDBRow>
           <MDBRow className="mt-5">
