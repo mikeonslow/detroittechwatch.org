@@ -5,10 +5,10 @@ import DTWSponsorPanel from "./DTWSponsorPanel";
 const packages = [
   {
     "color": "green darken-2",
-    "level": "Lanyard",
-    "cost": "Cost of lanyards & badges",
+    "level": "Coffee Mug",
+    "cost": "Cost of coffee mugs",
     "perks": [
-      "Your company's logo and name printed on each lanyard and badge",
+      "Your company's logo and name printed on each coffee mug, along with the event logo",
       "Mention on website",
       "Mention on all e-mails sent from the conference"
     ]
