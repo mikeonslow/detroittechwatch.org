@@ -59,8 +59,8 @@ class DTWSchedule extends Component {
                     <td>11:15am</td>
                   </tr>
                   <tr>
-                    <td>Replacing 50 Year Old Regex Technology with Rosie Pattern Language</td>
-                    <td>Jamie Jennings</td>
+                    <td>Make reliable web apps without JS fatigue</td>
+                    <td>Jared M. Smith</td>
                     <td>11:10am</td>
                     <td>11:45am</td>
                   </tr>
@@ -119,8 +119,8 @@ class DTWSchedule extends Component {
                     <td className="yellow lighten-5">3:50pm</td>
                   </tr>
                   <tr>
-                    <td>Make reliable web apps without JS fatigue</td>
-                    <td>Jared M. Smith</td>
+                    <td>Replacing 50 Year Old Regex Technology with Rosie Pattern Language</td>
+                    <td>Jamie Jennings</td>
                     <td>3:50pm</td>
                     <td>4:25pm</td>
                   </tr>
