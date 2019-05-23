@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {MDBContainer, MDBRow, MDBCol} from "mdbreact";
+import {MDBContainer, MDBRow, MDBCol, MDBBtn} from "mdbreact";
 import DTWSponsorPanel from "./DTWSponsorPanel";
 
 const packages = [
@@ -56,11 +56,19 @@ class DTWSponsors extends Component {
             </MDBCol>
           </MDBRow>
           <MDBRow className="mt-2 text-center">
-            <MDBCol size="12" className="mb-4">
-              <img src="static/images/sponsor/riis.jpg" height="30" title="Thanks to our platinum sponsor - riis" alt="Thanks to our platinum sponsor - riis"></img>
+            <MDBCol size="12" className="mb-4 sponsor-logos">
+              <h2>Platinum</h2>
+              <a href="https://riis.com/" target="_blank" rel="noopener noreferrer"><img src="static/images/sponsor/riis_sq.png" className="no-border" title="Thanks to our platinum sponsor - riis" alt="Thanks to our platinum sponsor - riis" /></a>
+              <a href="https://www.aboutamazon.com/" target="_blank" rel="noopener noreferrer"><img src="static/images/sponsor/amazon_detroit_sq.png" className="no-border" title="Thanks to our platinum sponsor - Amazon Detroit" alt="Thanks to our platinum sponsor - Amazon Detroit" /></a>
             </MDBCol>
-            <MDBCol size="12">
-              <img src="static/images/sponsor/rv.png" height="30"  title="Thanks to our lanyard sponsor - Red Ventures" alt="Thanks to our lanyard sponsor - Red Ventures"></img>
+            <MDBCol size="12" className="mb-4 sponsor-logos">
+              <h2>Gold</h2>
+              <a href={`mailto:info@detroittechwatch.org?subject=Gold level sponsor request`}><MDBBtn>Become
+                a Gold Sponsor</MDBBtn></a>
+            </MDBCol>
+            <MDBCol size="12" className="mb-4 sponsor-logos">
+              <h2>Lanyard Sponsor</h2>
+              <a href="https://www.redventures.com/" target="_blank" rel="noopener noreferrer"><img src="static/images/sponsor/red_ventures_sq.png" title="Thanks to our lanyard sponsor - Red Ventures" alt="Thanks to our lanyard sponsor - Red Ventures"></img></a>
             </MDBCol>
           </MDBRow>
           <MDBRow className="mt-5">
