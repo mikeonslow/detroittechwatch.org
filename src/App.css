@@ -96,7 +96,6 @@ td {
 .sponsor-logos img {
     border-radius: 15px;
     border: 2px solid #ccc;
-    margin-right: 15px;
 }
 .no-border { border: 0px !important; }
 @media (max-width: 576px) {

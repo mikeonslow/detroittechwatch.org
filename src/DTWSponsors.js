@@ -58,7 +58,7 @@ class DTWSponsors extends Component {
           <MDBRow className="mt-2 text-center">
             <MDBCol size="12" className="mb-4 sponsor-logos">
               <h2>Platinum</h2>
-              <a href="https://riis.com/" target="_blank" rel="noopener noreferrer"><img src="static/images/sponsor/riis_sq.png" className="no-border" title="Thanks to our platinum sponsor - riis" alt="Thanks to our platinum sponsor - riis" /></a>
+              <a href="https://riis.com/" target="_blank" rel="noopener noreferrer" style={{marginRight: 15}}><img src="static/images/sponsor/riis_sq.png" className="no-border" title="Thanks to our platinum sponsor - riis" alt="Thanks to our platinum sponsor - riis" /></a>
               <a href="https://www.aboutamazon.com/" target="_blank" rel="noopener noreferrer"><img src="static/images/sponsor/amazon_detroit_sq.png" className="no-border" title="Thanks to our platinum sponsor - Amazon Detroit" alt="Thanks to our platinum sponsor - Amazon Detroit" /></a>
             </MDBCol>
             <MDBCol size="12" className="mb-4 sponsor-logos">
