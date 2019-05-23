@@ -185,9 +185,15 @@ const speakers = [
       'description':
       <div>
         <p>With Swift 5 and ABI stability, Swift has matured into a language ready for new adopters. In this talk, Leo gives an introduction to Swift development as well as its journey.</p>
-        <p>This session will cover the basics of the syntax and how it is similar. This session will explain some differences such as Optionals, Enumerations, and Error Handling. We then build our first iOS Application with navigation, tabs, and a table view.</p>
-        <p>By building the application, we can get into some of the patterns and practices in iOS development including Delegation, Protocol-Oriented Programming, and Functional Programming. Lastly, we’ll get into the basics of Apple Watch development and how can carry our skills to the watch.</p>
+        <p>In this session, Leo will cover the basics of the syntax and how it is similar to other languages. This session will explain some differences such as Optionals, Enumerations, and Error Handling. We then build our first iOS Application with navigation, tabs, and a table view.</p>
+        <p>By building the application, we can get into some of the patterns and practices in iOS development including Delegation, Protocol-Oriented Programming, and Functional Programming. Lastly, we’ll get into the basics of Apple Watch development and how we can carry our skills to the watch.</p>
         <p>If you are interested in getting started with Swift and developing for the Apple Watch, you’ll want to check this workshop out.</p>
+        <p>What You'll Need...</p>
+        <ul>
+          <li>macOS Computer with latest version of macOS installed</li>
+          <li>macOS Mojave 10.14.4 - for more info on how to upgrade macOS check out this link: <a href="https://support.apple.com/en-us/HT201541" target="_blank" rel="noopener noreferrer">https://support.apple.com/en-us/HT201541</a></li>
+          <li>Xcode 10.2.1 - for more info on how to download Xcode, check out this link: <a href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12" target="_blank" rel="noopener noreferrer">https://itunes.apple.com/us/app/xcode/id497799835?mt=12</a></li>
+        </ul>
       </div>
     },
     "signupUrl": "https://forms.gle/7RRrrpEoMf61tMpF9"
