@@ -29,7 +29,7 @@ class DTWOrganizers extends Component {
         <MDBContainer className="p-5">
           <MDBRow className="mb-5">
             <MDBCol>
-              <h1>Organizers</h1>
+              <h1>Organizers and Volunteers</h1>
             </MDBCol>
           </MDBRow>
           <MDBRow>
