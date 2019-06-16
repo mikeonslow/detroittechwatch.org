@@ -89,8 +89,8 @@ class DTWSchedule extends Component {
                     <td>1:25pm</td>
                   </tr>
                   <tr>
-                    <td>Crystal: A language for humans and computers</td>
-                    <td>Serdar (Sedo) Dogruyol</td>
+                    <td>Introduction to SQL++ for Big Data: Same Language, More Power</td>
+                    <td>Matthew D. Groves</td>
                     <td>1:30pm</td>
                     <td>2:05pm</td>
                   </tr>
@@ -107,8 +107,8 @@ class DTWSchedule extends Component {
                     <td>2:55pm</td>
                   </tr>
                   <tr>
-                    <td>Introduction to SQL++ for Big Data: Same Language, More Power</td>
-                    <td>Matthew D. Groves</td>
+                    <td>Crystal: A language for humans and computers</td>
+                    <td>Serdar (Sedo) Dogruyol</td>
                     <td>3:00pm</td>
                     <td>3:35pm</td>
                   </tr>
