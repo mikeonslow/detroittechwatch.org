@@ -61,25 +61,29 @@ class DTWSponsors extends Component {
               <a href="https://riis.com/" target="_blank" rel="noopener noreferrer" style={{marginRight: 15}}><img src="static/images/sponsor/riis_sq.png" className="no-border" title="Thanks to our platinum sponsor - riis" alt="Thanks to our platinum sponsor - riis" /></a>
               <a href="https://www.aboutamazon.com/" target="_blank" rel="noopener noreferrer"><img src="static/images/sponsor/amazon_detroit_sq.png" className="no-border" title="Thanks to our platinum sponsor - Amazon Detroit" alt="Thanks to our platinum sponsor - Amazon Detroit" /></a>
             </MDBCol>
-            <MDBCol size="12" className="mb-4 sponsor-logos">
-              <h2>Gold</h2>
-              <a href={`mailto:info@detroittechwatch.org?subject=Gold level sponsor request`}><MDBBtn>Become
-                a Gold Sponsor</MDBBtn></a>
-            </MDBCol>
+            {/*<MDBCol size="12" className="mb-4 sponsor-logos">*/}
+              {/*<h2>Gold</h2>*/}
+              {/*<a href={`mailto:info@detroittechwatch.org?subject=Gold level sponsor request`}><MDBBtn>Become*/}
+                {/*a Gold Sponsor</MDBBtn></a>*/}
+            {/*</MDBCol>*/}
             <MDBCol size="12" className="mb-4 sponsor-logos">
               <h2>Lanyard Sponsor</h2>
               <a href="https://www.redventures.com/" target="_blank" rel="noopener noreferrer"><img src="static/images/sponsor/red_ventures_sq.png" title="Thanks to our lanyard sponsor - Red Ventures" alt="Thanks to our lanyard sponsor - Red Ventures"></img></a>
             </MDBCol>
-          </MDBRow>
-          <MDBRow className="mt-5">
-            <MDBCol>
-              <h2>Support the community</h2>
-              <p>You or your company can become a sponsor for Detroit Tech Watch 2019.</p>
+            <MDBCol size="12" className="mb-4 sponsor-logos">
+              <h2>Coffee Mug Sponsor</h2>
+              <a href="https://www.ubreakifix.com/" target="_blank" rel="noopener noreferrer"><img src="static/images/sponsor/ubreakifix.png" title="Thanks to our coffee mug sponsor - UBREAKIFIX" alt="Thanks to our coffee mug sponsor - UBREAKIFIX"></img></a>
             </MDBCol>
           </MDBRow>
-          <MDBRow>
-            {listItems}
-          </MDBRow>
+          {/*<MDBRow className="mt-5">*/}
+            {/*<MDBCol>*/}
+              {/*<h2>Support the community</h2>*/}
+              {/*<p>You or your company can become a sponsor for Detroit Tech Watch 2019.</p>*/}
+            {/*</MDBCol>*/}
+          {/*</MDBRow>*/}
+          {/*<MDBRow>*/}
+            {/*{listItems}*/}
+          {/*</MDBRow>*/}
           <a href="#location" id="location">&nbsp;</a>
         </MDBContainer>
     );

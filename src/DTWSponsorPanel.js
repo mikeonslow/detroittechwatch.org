@@ -20,8 +20,8 @@ class DTWSponsorPanel extends Component {
               <br/>
               {listPerks}
             </MDBCardText>
-            <a href={`mailto:info@detroittechwatch.org?subject=${level} level sponsor request`}><MDBBtn>Become
-              a {level} Sponsor</MDBBtn></a>
+            {/*<a href={`mailto:info@detroittechwatch.org?subject=${level} level sponsor request`}><MDBBtn>Become*/}
+              {/*a {level} Sponsor</MDBBtn></a>*/}
           </MDBCardBody>
         </MDBCard>
     )
