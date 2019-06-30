@@ -17,7 +17,7 @@ class DTWOrganizerPanel extends Component {
     }
 
     return (
-            <MDBCol size="4">
+            <MDBCol size="md-12 lg-4">
               <MDBCard testimonial className="text-center mt-4">
                 <img
                     src={`/static/images/${imageUrl}`}
