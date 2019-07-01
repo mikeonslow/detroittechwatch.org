@@ -32,15 +32,20 @@ const speakers = [
       'title': 'From the ground up - developing a mobile app using Flutter',
       'description':
           <div>
-            <div>Flutter is Google’s cross-platform mobile platform for crafting high-quality native interfaces on iOS and
+            <p>Flutter is Google’s cross-platform mobile platform for crafting high-quality native interfaces on iOS and
               Android in record time.
               Flutter works with existing code, is used by developers and organizations around the world, and is free
-              and open source.</div>
+              and open source.
+            </p>
 
-            <div>Together we will start with an empty Flutter project and build it up step by step into a usable app.
+            <p>Together we will start with an empty Flutter project and build it up step by step into a usable app.
               Along the way, you will pick up some of the fundamentals of Flutter development
               as well as the fundamentals of the Dart language. This intro will equip you with enough of a base to start
-              building your own mobile apps in record time!</div></div>
+              building your own mobile apps in record time!
+            </p>
+
+            <p className="text-left">Project Repo: <a href="https://github.com/donwardpeng/Flutter-DetTechWatch" target="_blank" rel="noopener noreferrer">https://github.com/donwardpeng/Flutter-DetTechWatch</a></p>
+          </div>
     }
   },
   {
