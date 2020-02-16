@@ -27,7 +27,8 @@ class DTWFixedNavbar extends React.Component {
   }
 
   render() {
-    const bgMonoDark = { backgroundColor: "#3B64AF" };
+    // const bgMonoDark = { backgroundColor: "#3B64AF" };
+    const bgMonoDark = { backgroundColor: "#1caadd" };
     // const container = {height: 1300};
     return (
       <header>

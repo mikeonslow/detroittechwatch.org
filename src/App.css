@@ -6,7 +6,18 @@ body {
   /*-o-background-size: cover;*/
   /*background-size: cover;*/
 }
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
   font-family: "Segoe UI Light", "Roboto-Light", "Roboto", sans-serif;
 }
 .dtw-logo {
@@ -20,7 +31,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #2e363f;
 }
 .brand-light {
-  color: #46C3EC;
+  color: #46c3ec;
 }
 .brand-dark {
   color: rgb(59, 100, 175);
@@ -61,50 +72,57 @@ td {
   background-color: rgb(255, 255, 255);
 }
 .invalid-feedback {
-   color: red;
-   display: block;
- }
+  color: red;
+  display: block;
+}
 .valid-feedback {
-   color: green;
-   display: block;
- }
+  color: green;
+  display: block;
+}
 .perk-item {
   border-top: 1px #aaa solid;
   padding: 15px;
   display: block;
 }
-.progress, .progress-bar.progress-bar-striped.progress-bar-animated {
-    height: 8px;
+.progress,
+.progress-bar.progress-bar-striped.progress-bar-animated {
+  height: 8px;
 }
-.img.speaker, .img.organizer {
-    width: 110px;
+.img.speaker,
+.img.organizer {
+  width: 110px;
 }
 .speaker.description-container {
-    font-weight: 400 !important;
-    color: #485058;
-    font-size: 1.2em
+  font-weight: 400 !important;
+  color: #485058;
+  font-size: 1.2em;
 }
 .speaker.bio-container {
-     font-style: italic !important;
+  font-style: italic !important;
 }
 .signup {
-    min-width: 30vw !important;
+  min-width: 30vw !important;
 }
 .card ul {
-    text-align: left;
+  text-align: left;
 }
 .sponsor-logos img {
-    border-radius: 15px;
-    border: 2px solid #ccc;
+  border-radius: 15px;
+  border: 2px solid #ccc;
 }
-.no-border { border: 0px !important; }
+.header-bg {
+  /* background: url("../static/images/dtw2020bg.png"); */
+}
+.no-border {
+  border: 0px !important;
+}
 @media (max-width: 576px) {
-    .signup {
-        min-width: 90vw !important;
-    }
+  .signup {
+    min-width: 90vw !important;
+  }
 }
 @media (max-width: 768px) {
-    .signup {
-        min-width: 90vw !important;
-    }
+  .signup {
+    min-width: 90vw !important;
+  }
 }

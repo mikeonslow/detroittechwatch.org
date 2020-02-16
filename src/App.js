@@ -14,6 +14,12 @@ import DTWSchedule from "./DTWSchedule";
 import "./App.css";
 import DTWGettingThere from "./DTWGettingThere";
 
+const headerStyle = {
+  backgroundImage: 'url("static/images/dtw2020bg.png")',
+  backgroundRepeat: "repeat",
+  overflow: "hidden"
+};
+
 class App extends Component {
   render() {
     return (
@@ -27,7 +33,7 @@ class App extends Component {
               <Route path="/" component={DTWFixedNavbar} />
             </MDBCol>
           </MDBRow>
-          <MDBRow>
+          <MDBRow style={headerStyle}>
             <MDBCol>
               <DTWJumbotron />
             </MDBCol>

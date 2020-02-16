@@ -15,7 +15,7 @@ class DTWJumbotron extends Component {
           </MDBCol>
           <MDBCol className="col-12 col-lg-4 text-center text-lg-right">
             <h1 className="h1 brand-light">June 27th, 2020</h1>
-            <h6 className="h6 brand-light">
+            {/* <h6 className="h6 brand-light">
               TechTown Detroit, 440 Burroughs Street, Detroit, MI 48202{" "}
               <a
                 href="https://goo.gl/maps/itPsnYY7zBG2"
@@ -25,20 +25,24 @@ class DTWJumbotron extends Component {
               >
                 <MDBIcon icon="map-marked" />
               </a>
-            </h6>
+            </h6> */}
           </MDBCol>
         </MDBRow>
         <MDBRow>
           <MDBCol>
             <p className="text-light">
-              From the folks who brought you DetroitDevDay, a new conference to
-              look toward the future of software development. A day long event
-              with nationally recognized speakers to discuss cutting edge ideas
-              in software development and new programming languages!
+              For the second year, we're hosting the Detroit Tech Watch
+              conference.
+            </p>
+            <p className="text-light">
+              A look toward the future of software development. A one day long
+              event with nationally recognized speakers, to discuss cutting edge
+              ideas and the importance of continuous learning in software
+              development.
             </p>
           </MDBCol>
         </MDBRow>
-        <MDBRow>
+        {/* <MDBRow>
           <MDBCol>
             <MDBBtn
               outline
@@ -50,7 +54,7 @@ class DTWJumbotron extends Component {
               <MDBIcon icon="ticket-alt" className="ml-2" />
             </MDBBtn>
           </MDBCol>
-        </MDBRow>
+        </MDBRow> */}
       </MDBContainer>
     );
   }
