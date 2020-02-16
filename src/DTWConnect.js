@@ -184,6 +184,9 @@ class DTWConnect extends Component {
         </MDBRow>
         <MDBRow>
           <MDBCol />
+          <a href="#dtw_code_of_conduct" id="code_of_conduct">
+            &nbsp;
+          </a>
         </MDBRow>
       </MDBContainer>
     );
