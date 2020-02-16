@@ -24,12 +24,15 @@ const keynote = {
       skills through video, courses, and conferences.
     </div>
   ),
+  twitterHandle: "redrapids",
   imageUrl: "brucetate.png",
   talk: {
     title: (
       <span>
-        <h3>Be Curious </h3>
-        <h5>Improve your Programming Career through Learning Languages</h5>
+        <h3>
+          Be Curious: Improve your Programming Career through Learning Languages{" "}
+        </h3>
+        {/* <h5>Improve your Programming Career through Learning Languages</h5> */}
       </span>
     ),
     description: (

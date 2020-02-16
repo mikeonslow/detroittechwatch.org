@@ -5,7 +5,8 @@ import {
   MDBCardBody,
   MDBCardTitle,
   MDBCardText,
-  MDBBadge
+  MDBBadge,
+  MDBIcon
 } from "mdbreact";
 
 class DTWSpeakerPanel extends Component {
@@ -40,6 +41,26 @@ class DTWSpeakerPanel extends Component {
         ""
       );
 
+    const twitterHandle =
+      "string" === typeof speaker.twitterHandle ? (
+        <div className="text-center speaker-twitter-handle">
+          {"  "}
+          <MDBBadge color="info" className="h6 ml-1">
+            <MDBIcon fab icon="twitter" className="mr-1" />
+            <a
+              href={`https://twitter.com/${speaker.twitterHandle}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="badge-link"
+            >
+              @{speaker.twitterHandle}
+            </a>
+          </MDBBadge>
+        </div>
+      ) : (
+        ""
+      );
+
     return (
       <MDBCard>
         <img
@@ -50,6 +71,7 @@ class DTWSpeakerPanel extends Component {
         <MDBCardBody>
           <MDBCardTitle className="deep-purple-text">
             <b>{speaker.name}</b>
+            {twitterHandle}
           </MDBCardTitle>
           <MDBCardText>
             <div className="h4">
