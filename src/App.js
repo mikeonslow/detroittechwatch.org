@@ -10,9 +10,10 @@ import DTWCodeofConduct from "./DTWCodeofConduct";
 import DTWOrganizers from "./DTWOrganizers";
 import DTWSponsors from "./DTWSponsors";
 import DTWSchedule from "./DTWSchedule";
+import DTWGettingThere from "./DTWGettingThere";
+import DTWKeynote from "./DTWKeynote";
 
 import "./App.css";
-import DTWGettingThere from "./DTWGettingThere";
 
 const headerStyle = {
   backgroundImage: 'url("static/images/dtw2020bg.png")',
@@ -41,6 +42,11 @@ class App extends Component {
           <MDBRow className="section lightest">
             <MDBCol>
               <DTWConnect />
+            </MDBCol>
+          </MDBRow>
+          <MDBRow className="section dark-blue">
+            <MDBCol>
+              <DTWKeynote />
             </MDBCol>
           </MDBRow>
           {/* <MDBRow className="section lightest">
