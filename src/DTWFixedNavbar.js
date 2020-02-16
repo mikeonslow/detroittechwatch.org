@@ -54,6 +54,11 @@ class DTWFixedNavbar extends React.Component {
                   Keynote
                 </Link>
               </MDBNavItem>
+              <MDBNavItem>
+                <Link to="#2019" className="nav-link">
+                  Last Year&apos;s Event
+                </Link>
+              </MDBNavItem>
               {/* <MDBNavItem>
                   <Link to="#schedule" className="nav-link">Schedule</Link>
                 </MDBNavItem>

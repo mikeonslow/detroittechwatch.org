@@ -76,7 +76,7 @@ class DTWKeynote extends Component {
             <DTWSpeakerPanel speaker={keynote} key="1" />
           </MDBCol>
         </MDBRow>
-        <a href="#dtw_code_of_conduct" id="code_of_conduct">
+        <a href="#2019" id="2019">
           &nbsp;
         </a>
       </MDBContainer>

@@ -12,6 +12,7 @@ import DTWSponsors from "./DTWSponsors";
 import DTWSchedule from "./DTWSchedule";
 import DTWGettingThere from "./DTWGettingThere";
 import DTWKeynote from "./DTWKeynote";
+import DTW2019 from "./DTW2019";
 
 import "./App.css";
 
@@ -47,6 +48,11 @@ class App extends Component {
           <MDBRow className="section dark-blue">
             <MDBCol>
               <DTWKeynote />
+            </MDBCol>
+          </MDBRow>
+          <MDBRow className="section lightest">
+            <MDBCol>
+              <DTW2019 />
             </MDBCol>
           </MDBRow>
           {/* <MDBRow className="section lightest">
