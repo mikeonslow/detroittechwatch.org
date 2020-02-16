@@ -80,7 +80,7 @@ class DTW2019 extends Component {
         </MDBRow>
         <MDBRow>
           <MDBCol sm="12" md="6">
-            <MDBCard>
+            <MDBCard className="mb-4">
               <MDBCardBody>
                 <MDBCardTitle>2019 Event Site</MDBCardTitle>
                 <MDBCardText>
@@ -88,10 +88,13 @@ class DTW2019 extends Component {
                   the bulk of the card&apos;s content.
                 </MDBCardText>
                 <MDBBtn
+                  rounded
+                  outline
                   color="secondary"
                   href="https://2019.detroittechwatch.org"
+                  target="_blank"
                 >
-                  Visit Page
+                  Visit 2019 Site
                 </MDBBtn>
               </MDBCardBody>
               <MDBCardImage
@@ -110,10 +113,13 @@ class DTW2019 extends Component {
                   the bulk of the card&apos;s content.
                 </MDBCardText>
                 <MDBBtn
+                  rounded
+                  outline
                   color="secondary"
                   href="https://www.youtube.com/channel/UCksVT6CzhWBRWpRdi_dT4_A"
+                  target="_blank"
                 >
-                  Visit Page
+                  Watch Videos
                 </MDBBtn>
               </MDBCardBody>
               <MDBCardImage
