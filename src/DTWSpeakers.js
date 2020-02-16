@@ -521,8 +521,8 @@ const speakers = [
         </div>
       ),
       ytId: null
-    },
-    signupUrl: "https://forms.gle/7RRrrpEoMf61tMpF9"
+    }
+    // signupUrl: "https://forms.gle/7RRrrpEoMf61tMpF9"
   },
   {
     name: "Mike Onslow",
@@ -560,8 +560,8 @@ const speakers = [
         </div>
       ),
       ytId: null
-    },
-    signupUrl: "https://forms.gle/GpNtp6wzVrzdTznt9"
+    }
+    // signupUrl: "https://forms.gle/GpNtp6wzVrzdTznt9"
   }
 ];
 
