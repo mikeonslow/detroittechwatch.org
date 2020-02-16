@@ -36,8 +36,8 @@ class DTWJumbotron extends Component {
             </p>
             <p className="text-light">
               A look toward the future of software development. A one day long
-              event with nationally recognized speakers, to discuss cutting edge
-              ideas and the importance of continuous learning in software
+              event with nationally recognized speakers, to discuss progressive
+              ideas, and the importance of continuous learning in software
               development.
             </p>
           </MDBCol>
