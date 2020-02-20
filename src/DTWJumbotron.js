@@ -15,7 +15,7 @@ class DTWJumbotron extends Component {
           </MDBCol>
           <MDBCol className="col-12 col-lg-4 text-center text-lg-right">
             <h1 className="h1 brand-light">June 27th, 2020</h1>
-            {/* <h6 className="h6 brand-light">
+            <h6 className="h6 brand-light">
               TechTown Detroit, 440 Burroughs Street, Detroit, MI 48202{" "}
               <a
                 href="https://goo.gl/maps/itPsnYY7zBG2"
@@ -25,7 +25,7 @@ class DTWJumbotron extends Component {
               >
                 <MDBIcon icon="map-marked" />
               </a>
-            </h6> */}
+            </h6>
           </MDBCol>
         </MDBRow>
         <MDBRow>
