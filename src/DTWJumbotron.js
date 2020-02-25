@@ -46,7 +46,7 @@ class DTWJumbotron extends Component {
           <MDBCol>
             <MDBBtn
               outline
-              color="primary"
+              color="info"
               size="lg"
               id="eventbrite-widget-modal-trigger-95509662973"
             >
