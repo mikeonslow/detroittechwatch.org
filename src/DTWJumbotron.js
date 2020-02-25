@@ -42,19 +42,19 @@ class DTWJumbotron extends Component {
             </p>
           </MDBCol>
         </MDBRow>
-        {/* <MDBRow>
+        <MDBRow>
           <MDBCol>
             <MDBBtn
               outline
               color="primary"
               size="lg"
-              id="eventbrite-widget-modal-trigger-58444259353"
+              id="eventbrite-widget-modal-trigger-95509662973"
             >
               Purchase Tickets
               <MDBIcon icon="ticket-alt" className="ml-2" />
             </MDBBtn>
           </MDBCol>
-        </MDBRow> */}
+        </MDBRow>
       </MDBContainer>
     );
   }
