@@ -135,20 +135,41 @@ class DTWConnect extends Component {
         <MDBRow>
           <MDBCol size="12">
             <h1>Stay up to Date!</h1>
-            {/* <p className="text-center">Join our mailing list for the latest conference updates. Your email address
-                will be kept private and we'll only update you with with messages relevant to the event.</p> */}
+            <p className="text-center">
+              Join our mailing list for the latest conference updates. Your
+              email address will be kept private and we'll only update you with
+              with messages relevant to the event.
+            </p>
           </MDBCol>
-          {/* <MDBCol size="12" className="text-center">
-              <MDBFormInline className="md-form mr-auto mb-4 justify-content-center" onSubmit={this.handleSubmit}>
-                <MDBInput label="Email Address" hint="youremail@domain.com" type="email" size="md" className="signup"
-                          onChange={this.handleChange} value={value} spellCheck="false" disabled={formDisabled}>
-                  {feedBack}
-                </MDBInput>
-                <MDBBtn color="secondary" size="md" disabled={validation === "Invalid" || validation === "Initial"}
-                        className="align-self-start mt-md-4" onClick={this.handleSubmit}>sign
-                  up <MDBIcon far icon="comments"/></MDBBtn>
-              </MDBFormInline>
-            </MDBCol> */}
+          <MDBCol size="12" className="text-center">
+            <MDBFormInline
+              className="md-form mr-auto mb-4 justify-content-center"
+              onSubmit={this.handleSubmit}
+            >
+              <MDBInput
+                label="Email Address"
+                hint="youremail@domain.com"
+                type="email"
+                size="md"
+                className="signup"
+                onChange={this.handleChange}
+                value={value}
+                spellCheck="false"
+                disabled={formDisabled}
+              >
+                {feedBack}
+              </MDBInput>
+              <MDBBtn
+                color="secondary"
+                size="md"
+                disabled={validation === "Invalid" || validation === "Initial"}
+                className="align-self-start mt-md-4"
+                onClick={this.handleSubmit}
+              >
+                sign up <MDBIcon far icon="comments" />
+              </MDBBtn>
+            </MDBFormInline>
+          </MDBCol>
           <MDBCol size="12">
             <p className="text-center">
               Follow us on
