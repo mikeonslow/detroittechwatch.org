@@ -1,5 +1,13 @@
 import React, { Component } from "react";
-import { MDBContainer, MDBRow, MDBCol, MDBIcon } from "mdbreact";
+import {
+  MDBContainer,
+  MDBRow,
+  MDBCol,
+  MDBIcon,
+  MDBFormInline,
+  MDBInput,
+  MDBBtn
+} from "mdbreact";
 
 var validator = require("email-validator");
 
