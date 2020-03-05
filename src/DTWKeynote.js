@@ -62,8 +62,8 @@ class DTWKeynote extends Component {
     return (
       <MDBContainer className="p-5">
         <MDBRow>
-          <MDBCol className="text-dark">
-            <h1 class="h1 text-light">Keynote</h1>
+          <MDBCol className="text-light">
+            <h1 class="h1">Keynote</h1>
           </MDBCol>
         </MDBRow>
         <MDBRow>
@@ -75,10 +75,10 @@ class DTWKeynote extends Component {
           <MDBCol sm="12" key="1" className="mb-5 d-flex align-items-stretch">
             <DTWSpeakerPanel speaker={keynote} key="1" />
           </MDBCol>
+          <a href="#speakers" id="speakers">
+            &nbsp;
+          </a>
         </MDBRow>
-        <a href="#2019" id="2019">
-          &nbsp;
-        </a>
       </MDBContainer>
     );
   }

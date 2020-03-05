@@ -206,9 +206,6 @@ class DTWConnect extends Component {
               </a>{" "}
               to stay up to date with event information
             </p>
-            <a href="#dtw_speakers" id="speakers">
-              {" "}
-            </a>
           </MDBCol>
         </MDBRow>
         <MDBRow>

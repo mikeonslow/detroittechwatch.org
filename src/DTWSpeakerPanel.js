@@ -16,7 +16,7 @@ class DTWSpeakerPanel extends Component {
     const imageSrc = `/static/images/${speaker.imageUrl}`;
 
     const typeBadge =
-      "string" === typeof speaker.talk.type ? (
+      speaker.talk && "string" === typeof speaker.talk.type ? (
         <div>
           <MDBBadge color="secondary" className="h6">
             {speaker.talk.type}
@@ -25,6 +25,7 @@ class DTWSpeakerPanel extends Component {
       ) : (
         ""
       );
+
     const signupButton =
       "string" === typeof speaker.signupUrl ? (
         <div className="text-center">
@@ -61,11 +62,25 @@ class DTWSpeakerPanel extends Component {
         ""
       );
 
+    const talk =
+      speaker.talk && speaker.talk.title && speaker.talk.description ? (
+        <MDBCardText>
+          <div className="h4">
+            {speaker.talk.title} {typeBadge}
+          </div>
+          <div className="speaker description-container text-justify">
+            {speaker.talk.description}
+          </div>
+        </MDBCardText>
+      ) : (
+        ""
+      );
+
     return (
       <MDBCard>
         <img
           src={imageSrc}
-          alt=""
+          alt={speaker.name}
           className="rounded-circle img mx-auto mt-5 speaker"
         />
         <MDBCardBody>
@@ -74,12 +89,7 @@ class DTWSpeakerPanel extends Component {
             {twitterHandle}
           </MDBCardTitle>
           <MDBCardText>
-            <div className="h4">
-              {speaker.talk.title} {typeBadge}
-            </div>
-            <div className="speaker description-container text-justify">
-              {speaker.talk.description}
-            </div>
+            {talk}
             <hr />
             <div className="speaker bio-container">{speaker.bio}</div>
           </MDBCardText>

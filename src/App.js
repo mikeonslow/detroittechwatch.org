@@ -50,21 +50,16 @@ class App extends Component {
               <DTWKeynote />
             </MDBCol>
           </MDBRow>
+          <MDBRow className="section blue">
+            <MDBCol>
+              <DTWSpeakers />
+            </MDBCol>
+          </MDBRow>
           <MDBRow className="section lightest">
             <MDBCol>
               <DTW2019 />
             </MDBCol>
           </MDBRow>
-          {/* <MDBRow className="section lightest">
-              <MDBCol>
-                &nbsp;
-              </MDBCol>
-            </MDBRow>
-            <MDBRow className="section dark-blue">
-              <MDBCol>
-                <DTWSpeakers/>
-              </MDBCol>
-            </MDBRow> */}
           {/* <MDBRow className="section dark-blue">
               <MDBCol>
                 &nbsp;
