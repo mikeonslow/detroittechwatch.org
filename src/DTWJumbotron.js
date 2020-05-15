@@ -14,18 +14,7 @@ class DTWJumbotron extends Component {
             <img src="static/images/dtw.png" className="img-fluid" alt="logo" />
           </MDBCol>
           <MDBCol className="col-12 col-lg-4 text-center text-lg-right">
-            <h1 className="h1 brand-light">June 27th, 2020</h1>
-            <h6 className="h6 brand-light">
-              TechTown Detroit, 440 Burroughs Street, Detroit, MI 48202{" "}
-              <a
-                href="https://goo.gl/maps/itPsnYY7zBG2"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-info"
-              >
-                <MDBIcon icon="map-marked" />
-              </a>
-            </h6>
+            <h1 className="h1 brand-light">Event cancelled for 2020</h1>
           </MDBCol>
         </MDBRow>
         <MDBRow>
