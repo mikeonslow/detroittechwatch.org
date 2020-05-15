@@ -14,7 +14,7 @@ class DTWJumbotron extends Component {
             <img src="static/images/dtw.png" className="img-fluid" alt="logo" />
           </MDBCol>
           <MDBCol className="col-12 col-lg-4 text-center text-lg-right">
-            <h1 className="h1 brand-light">Event cancelled for 2020</h1>
+            <h1 className="h1 brand-warning">Cancelled for 2020</h1>
           </MDBCol>
         </MDBRow>
         <MDBRow>
