@@ -30,6 +30,7 @@ class DTWJumbotron extends Component {
             </p>
           </MDBCol>
         </MDBRow>
+      <!--
         <MDBRow>
           <MDBCol>
             <MDBBtn
@@ -43,6 +44,7 @@ class DTWJumbotron extends Component {
             </MDBBtn>
           </MDBCol>
         </MDBRow>
+      -->
       </MDBContainer>
     );
   }
