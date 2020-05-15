@@ -20,8 +20,7 @@ class DTWJumbotron extends Component {
         <MDBRow>
           <MDBCol>
             <p className="text-light">
-              For the second year, we're hosting the Detroit Tech Watch
-              conference.
+              With the current state of COVID-19, we've decided to cancel this event. We will still continue to host our monthly meetups virtually, so keep an eye on our meetup page: <a href="https://www.meetup.com/Detroit-Tech-Watch/">https://www.meetup.com/Detroit-Tech-Watch/</a> for updates. 
             </p>
             <p className="text-light">
               A look toward the future of software development. A one day long
