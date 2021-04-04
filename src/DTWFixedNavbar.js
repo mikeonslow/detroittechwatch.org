@@ -39,7 +39,7 @@ class DTWFixedNavbar extends React.Component {
               className="dtw-logo-white"
               alt="Detroit Tech Watch Logo"
             />
-            <strong>Detroit Tech Watch 2020</strong>
+            <strong>Detroit Tech Watch 2021</strong>
           </MDBNavbarBrand>
           <MDBNavbarToggler onClick={this.onClick} />
           <MDBCollapse isOpen={this.state.collapse} navbar>
