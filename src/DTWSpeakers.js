@@ -77,7 +77,7 @@ class DTWSpeakers extends Component {
               />
               <MDBCardBody>
                 <MDBCardTitle className="deep-purple-text">
-                  <b> Call For Proposals - Open soon!</b>
+                  <b> Call For Proposals - Open Soon!</b>
                 </MDBCardTitle>
                 <MDBCardText>
                   If you've got an idea for a talk, we'd love to hear from you.
