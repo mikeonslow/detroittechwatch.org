@@ -11,34 +11,34 @@ import {
 import DTWSpeakerPanel from "./DTWSpeakerPanel";
 
 const speakers = [
-  {
-    name: "Carol Nichols",
-    twitterHandle: "carols10cents",
-    bio: (
-      <span>
-        Carol is the co-author of The Rust Programming Language book and a
-        member of the Rust core team. She's a co-founder of the world's first
-        Rust-focused consultancy, Integer 32. She enjoys connecting folks by
-        running the Rust Belt Rust Conference. Carol hails from Pittsburgh, PA
-        and her favorite hockey player is Bryan Rust.
-      </span>
-    ),
-    imageUrl: "/speakers/caroln.jpg"
-  },
-  {
-    name: "Grant Maki",
-    twitterHandle: "itsmegrantmaki",
-    bio:
-      "Grant Maki is a software engineer at Ford Motor Company, where he has been working for about 2 years. He was a lawyer briefly, but not anymore. Nothing in his talk constitutes legal advice.",
-    imageUrl: "/speakers/grant-maki.jpg"
-  },
-  {
-    name: "Jamie Jennings",
-    twitterHandle: "jamietheriveter",
-    bio:
-      "Jamie earned her Ph.D. in Computer Science from Cornell University, and has held positions in academia and industry. As a Senior Technical Staff Member in IBM, she created international technical standards that remain in wide use by the mobile phone industry today. She has also been chief architect for several IBM products. Today, she is back in academia, on the faculty of the Computer Science Department at North Carolina State University. In her spare time she plays ice hockey and writes compilers.",
-    imageUrl: "/speakers/jamiej.jpg"
-  }
+  // {
+  //   name: "Carol Nichols",
+  //   twitterHandle: "carols10cents",
+  //   bio: (
+  //     <span>
+  //       Carol is the co-author of The Rust Programming Language book and a
+  //       member of the Rust core team. She's a co-founder of the world's first
+  //       Rust-focused consultancy, Integer 32. She enjoys connecting folks by
+  //       running the Rust Belt Rust Conference. Carol hails from Pittsburgh, PA
+  //       and her favorite hockey player is Bryan Rust.
+  //     </span>
+  //   ),
+  //   imageUrl: "/speakers/caroln.jpg"
+  // },
+  // {
+  //   name: "Grant Maki",
+  //   twitterHandle: "itsmegrantmaki",
+  //   bio:
+  //     "Grant Maki is a software engineer at Ford Motor Company, where he has been working for about 2 years. He was a lawyer briefly, but not anymore. Nothing in his talk constitutes legal advice.",
+  //   imageUrl: "/speakers/grant-maki.jpg"
+  // },
+  // {
+  //   name: "Jamie Jennings",
+  //   twitterHandle: "jamietheriveter",
+  //   bio:
+  //     "Jamie earned her Ph.D. in Computer Science from Cornell University, and has held positions in academia and industry. As a Senior Technical Staff Member in IBM, she created international technical standards that remain in wide use by the mobile phone industry today. She has also been chief architect for several IBM products. Today, she is back in academia, on the faculty of the Computer Science Department at North Carolina State University. In her spare time she plays ice hockey and writes compilers.",
+  //   imageUrl: "/speakers/jamiej.jpg"
+  // }
 ];
 
 class DTWSpeakers extends Component {
