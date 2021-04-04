@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
-import DTWSpeakerPanel from "./DTWSpeakerPanel";
+// import DTWSpeakerPanel from "./DTWSpeakerPanel";
 
 const keynote = {
   name: "TBD",
