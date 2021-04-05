@@ -25,7 +25,7 @@ const keynote = {
   //   </div>
   // ),
   // twitterHandle: "redrapids",
-  // imageUrl: "brucetate.png",
+     imageUrl: "speakers/speaker.jpg",
   // talk: {
   //   title: (
   //     <span>
@@ -72,7 +72,7 @@ class DTWKeynote extends Component {
           </MDBCol>
         </MDBRow>
         <MDBRow>
-          <MDBCol sm="12" key="1" className="mb-5 d-flex align-items-stretch">
+          <MDBCol sm="12" key="1" className="mb-5">
             <DTWSpeakerPanel speaker={keynote} key="1" />
           </MDBCol>
           <a href="#speakers" id="speakers">
