@@ -46,9 +46,8 @@ class DTWSpeakers extends Component {
     const speakersList = speakers.map((speaker, i) => (
       <MDBCol
         sm="12"
-        md="6"
         key={i}
-        className="mb-5 d-flex align-items-stretch"
+        className="mb-5"
       >
         <DTWSpeakerPanel speaker={speaker} key={i} />
       </MDBCol>
@@ -68,7 +67,7 @@ class DTWSpeakers extends Component {
         </MDBRow>
         <MDBRow>
           {speakersList}
-          <MDBCol sm="12" md="6" className="mb-5 d-flex align-items-stretch">
+          <MDBCol sm="12" className="mb-5">
             <MDBCard>
               <img
                 src="/static/images/speakers/speaker.jpg"
