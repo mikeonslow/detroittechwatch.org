@@ -9,8 +9,8 @@ class DTWSchedule extends Component {
             <MDBCol>
               <h1 className="">Schedule</h1>
             </MDBCol>
-          </MDBRow>
-          <MDBRow className="mt-3 text-left">
+           </MDBRow>
+         {/* <MDBRow className="mt-3 text-left">
             <MDBCol>
               <MDBTable>
                 <MDBTableHead color="secondary-color" textWhite>
@@ -140,9 +140,9 @@ class DTWSchedule extends Component {
               </MDBTable>
               <a href="#sponsors" id="sponsors">&nbsp;</a>
             </MDBCol>
-          </MDBRow>
+          </MDBRow> */}
         </MDBContainer>
-
+    
     );
   }
 }

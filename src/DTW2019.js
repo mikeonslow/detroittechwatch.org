@@ -70,7 +70,7 @@ class DTW2019 extends Component {
       <MDBContainer className="p-5">
         <MDBRow>
           <MDBCol className="text-dark">
-            <h1 class="h1">Last Year's Event</h1>
+            <h1 class="h1">Inaugural Event</h1>
           </MDBCol>
         </MDBRow>
         <MDBRow>

@@ -60,9 +60,10 @@ class DTWSponsors extends Component {
             <hr />
           </MDBCol>
         </MDBRow>
-        <MDBRow className="mt-2 text-center">
+         <MDBRow className="mt-2 text-center">
           <MDBCol size="12" className="mb-4 sponsor-logos">
-            <h2>Platinum</h2>
+            <h2>This could be you!</h2> 
+            {/* <h2>Platinum</h2> 
             <a
               href="https://riis.com/"
               target="_blank"
@@ -87,14 +88,14 @@ class DTWSponsors extends Component {
                 title="Thanks to our platinum sponsor - Amazon Detroit"
                 alt="Thanks to our platinum sponsor - Amazon Detroit"
               />
-            </a>
+            </a> */}
           </MDBCol>
           {/*<MDBCol size="12" className="mb-4 sponsor-logos">*/}
           {/*<h2>Gold</h2>*/}
           {/*<a href={`mailto:info@detroittechwatch.org?subject=Gold level sponsor request`}><MDBBtn>Become*/}
           {/*a Gold Sponsor</MDBBtn></a>*/}
           {/*</MDBCol>*/}
-          <MDBCol size="12" className="mb-4 sponsor-logos">
+          {/* <MDBCol size="12" className="mb-4 sponsor-logos">
             <h2>Lanyard Sponsor</h2>
             <a
               href="https://www.redventures.com/"
@@ -121,8 +122,8 @@ class DTWSponsors extends Component {
                 alt="Thanks to our coffee mug sponsor - UBREAKIFIX"
               />
             </a>
-          </MDBCol>
-        </MDBRow>
+          </MDBCol>*/}
+        </MDBRow> 
         {/*<MDBRow className="mt-5">*/}
         {/*<MDBCol>*/}
         {/*<h2>Support the community</h2>*/}
@@ -132,9 +133,9 @@ class DTWSponsors extends Component {
         {/*<MDBRow>*/}
         {/*{listItems}*/}
         {/*</MDBRow>*/}
-        <a href="#location" id="location">
+        {/* <a href="#location" id="location">
           &nbsp;
-        </a>
+        </a> */}
       </MDBContainer>
     );
   }
