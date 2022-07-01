@@ -19,7 +19,7 @@ class DTWJumbotron extends Component {
         </MDBRow>
         <MDBRow>
           <MDBCol>
-            <p className="">
+            <p className="brand-light">
               We're happy to annouce that we're planning to hold the Detroit Tech Watch Conference in person in April of 2023. We're working to confirm speakers and set the schedule. The website will be updated as this happens. 
             </p>
             <p className="text-light">
