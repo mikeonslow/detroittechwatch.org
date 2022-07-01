@@ -14,13 +14,13 @@ class DTWJumbotron extends Component {
             <img src="static/images/dtw.png" className="img-fluid" alt="logo" />
           </MDBCol>
           <MDBCol className="col-12 col-lg-4 text-center text-lg-right">
-            <h1 className="h1 brand-light">June 5th, 2021</h1>
+            <h1 className="h1 brand-light">April 15th, 2023</h1>
           </MDBCol>
         </MDBRow>
         <MDBRow>
           <MDBCol>
-            <p className="text-warning">
-              Because of Covid-19, we're going to have a virtual conference this year. We're working to confirm speakers and set the schedule. The website will be updated as this happens. 
+            <p className="">
+              We're happy to annouce that we're planning to hold the Detroit Tech Watch Conference in person in April of 2023. We're working to confirm speakers and set the schedule. The website will be updated as this happens. 
             </p>
             <p className="text-light">
               A look toward the future of software development. A one day long
