@@ -7,7 +7,7 @@ class DTWFooter extends Component {
       <MDBContainer className="text-center text-light p-2">
         <MDBRow>
           <MDBCol>
-            <div>Copyright 2021 - Detroit Tech Watch</div>
+            <div>Copyright 2023 - Detroit Tech Watch</div>
           </MDBCol>
         </MDBRow>
       </MDBContainer>
